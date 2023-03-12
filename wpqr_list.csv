@@ -1,0 +1,311 @@
+﻿ id ; wpqr_num ; trzecia_strona ; podstawa_normatywna ; metoda_spawania ; gatunek_mat1 ; gatunek_mat2 ; grupa_materialowa1 ; grupa_materialowa2 ; blacha_rura ; spoina ;grubosc_probki; zakres_kwalifikacji ; srednica_prob ; zakres_kwalifikacji2 ; pozycja_spawania ; szczegoly ; temp_udarnosci ; ceq ; re ; rm ; podgrzewanie_miedzysciegowe ; nazwa_spoiwa ; srednica_spoiwa ; rodzaj_gazu ; pwht ; data_wydania ; uwagi_1 ; uwagi_2 
+1;01/SLV/D (75/SLV/DC);internal;PN-EN ISO 15614-7;135;Weldox 700E;Weldox 700E;3.1;3.1;P;Napawanie;16,0;12,8 - 24,0;-;>500;PA;Napawanie;;;-;-;-;OK Autrod 12.64;1;M21;-;2012.02.14;Dellner Couplers;
+2;02/SLV/D (76/SLV/DC);internal;PN-EN ISO 15614-7;135;Weldox 700E;Weldox 700E;3.1;3.1;P;Napawanie;16,0;12,8 - 24,0;-;>500;PA;Napawanie;;;-;-;-;Bohler X 70-IG;1;M21;-;2012.01.03;Dellner Couplers;
+3;03/SLV/D (77/SLV/DC);internal;PN-EN ISO 15614-7;135;Weldox 700E;Weldox 700E;3.1;3.1;P;Napawanie;16,0;12,8 - 24,0;-;>500;PA;Napawanie;;;-;-;-;OK Autrod 12.64;1;M21;-;2012.01.04;Dellner Couplers;
+4;04/SLV/D (78/SLV/DC);internal;PN-EN ISO 15614-7;135;Weldox 700E;Weldox 700E;3.1;3.1;P;Napawanie;16,0;12,8 - 24,0;-;>500;PA;Napawanie;;;-;-;-;Bohler X 70-IG;1;M21;-;2012.01.04;Dellner Couplers;
+5;05/SLV/D (79/SLV/DC);internal;PN-EN ISO 15614-7;135;DCAB 500D (G10MnMoV6-3);DCAB 500D (G10MnMoV6-3);5.1;5.1;P;Napawanie;10,0;8,0 - 15,0;-;>500;PA;Napawanie;;;-;-;-;OK AristoRod 69;1;M21;-;2012.05.08;Dellner Couplers;
+6;06/SLV/D (80/SLV/DC);internal;PN-EN ISO 15614-7;135;DCAB 500D (G10MnMoV6-3);DCAB 500D (G10MnMoV6-3);5.1;5.1;P;Napawanie;16,0;12,8 - 24,0;-;>500;PA;Napawanie;;;-;-;-;OK AristoRod 69;1;M21;-;2012.05.08;Dellner Couplers;
+7;07/SLV/D;internal;PN-EN ISO 15614-1;135;25CrMo4;25CrMo4;5.1;5.1;P;FW;15,0 - 17,0;7,5 - 34,0;-;>500;PB;ml;;;-;-;-;Bohler X 70-IG;1;M21;-;2012.12.10;Dellner Couplers;
+8;08/SLV/D;internal;PN-EN ISO 15614-1;135;S355J2G3;S355J2H;1.2;1.2;P-T;BW;15,0 - 25,0;7,5 - 50,0;D82,5;≥ Ø41,25;PA;BW 10 ss mb;;;-;-;-;Fluxofil M42;1,2;M21;-;2013.02.22;Dellner Couplers;
+9;09/SLV/D;internal;PN-EN ISO 15614-1;136;S355J2G3;S355J2H;1.2;1.2;P-T;FW;(15,0 - 30,0);≥ 5;D82,5;≥ Ø41,25;PB;a4;;;-;-;-;FILARC PZ6111;1,2;M21;-;2013.02.22;Dellner Couplers;
+10;1/SLV/DC;internal;EN 288-3;135;Weldox 960E;Weldox 960E;3.2;3.2;P;BW;12,0;3,0 - 24,0;-;>500;PA;;;;-;-;-;Bohler X 90-IG;1,2;M21;-;2004.12.03;Dellner Couplers;
+11;10/SLV/D;internal;PN-EN ISO 15614-1;135;S355JR2;Ovako 280;1.2;1.3;P-T;BW;Y8 (9,0 - 25,0);3,0 - 50,0;D88;≥ Ø44;PA;8Y;;;-;-;-;OK Autrod 12.64;1;M21;-;2013.03.15;Dellner Couplers;
+12;10/SLV/DC;internal;PN-EN ISO 15613;135;Weldox 700E;S690QL;3.1;3.1;T;FW;3,0 - 10,0;3,0 - 20,0;D35;≥ Ø25;PB;"a2
+a6";;;-;-;-;Bohler X 70-IG;1;M21;-;2013.10.01;Dellner Couplers;
+13;100/SLV/DC;internal;PN-EN ISO 15613;141/111;S690QL;SS2333;3.1;8.1;P - T;BW;1/2V9 (2 - 12);1/2V9: 3 - 18 (1,4 - 24);D32;≥ Ø25;PA;1/2V9;;;;;n.a.;Avesta 309L-Si / P5;1;I1;n.a.;42614;Dellner Components Sp. z o.o.;
+14;101R/SLV/DC;internal;PN-EN ISO 15614-1;138 Robot;DCAB 600D;DCAB 600D;5.1;5.1;T;BW;BW16 (18);BW16: 8 - 32 (9 - 36);D175;≥ Ø87,5;PA;BW 16 ss mb;;;;;n.a.;Bohler 700 T-MC;1,2;M21;n.a.;42748;Dellner Components Sp. z o.o.;
+15;102/SLV/DC;internal;PN-EN ISO 15613;138;SS2172-21;S355J0;1.2;1.2;P;BW;1/2Y5 (10 - 14,5);1/2Y5: 3 - 7 (5 - 19);N.A.;N.A.;PA;1/2Y5;;;;;n.a.;Fluxofil M42;1,2;M21;n.a.;42879;Dellner Components Sp. z o.o.;175282
+16;103/SLV/DC;internal;PN-EN ISO 15614-1;138 Robot;E460K2+N;Ovako 280T+N;1.3;1.3;T;BW;BW12 (17);BW12: max24 (3 - 24);D152;≥ Ø76;PA;BW 12 ss mb;;;;;n.a.;Bohler 700 T-MC;1,2;M21;n.a.;43115;Dellner Components Sp. z o.o.;
+17;104/SLV/DC;internal;PN-EN ISO 15614-1;135;S355J2;S355J2;1.2;1.2;P;FW;a5 (25);a5: 3,75 - 7,5 (≥5);N.A.;N.A.;PB;a5;;;;;t = (30 - 45) 75      t = (45 - 130) 180;OK Autrod 12.64;1;M21;n.a.;43157;Dellner Components Sp. z o.o.;1054410
+18;105/SLV/DC;internal;PN-EN ISO 15613;135;S355J2;S355J2;1.2;1.2;P;BW / FW;a5 / 1/2Y7 / 1/2Y12 (28 - 50);a5: no restriction / 1/2Y7: max14 / 1/2Y12: max24 (14 - 100);N.A.;N.A.;PA / PB;a5 / 1/2Y7 / 1/2Y12;;;;;t = (30 - 45) 75      t = (45 - 100) 180;EMK 8;1;M21;n.a.;43157;Dellner Components Sp. z o.o.;1054410
+19;106R/SLV/DC;internal;PN-EN ISO 15613;138 Robot;S355J2;S355J2;1.2;1.2;P;BW / FW;a5 / 1/2Y7 / 1/2Y12 (28 - 50);a5: no restriction / 1/2Y7: max14 / 1/2Y12: max24 (14 - 100);N.A.;N.A.;PA / PB;a5 / 1/2Y7 / 1/2Y12;;;;;t = (30 - 45) 75      t = (45 - 100) 100;Bohler 700 T-MC;1,2;M21;n.a.;43157;Dellner Components Sp. z o.o.;1054410
+20;107/SLV/DC;internal;PN-EN ISO 15614-1;141;SS2333;DCAB 500D;8.1;5.1;P - T;FW;a3 (8 - 25);a3: no restrictions (3 - 50);D25;≥ Ø12,5;PB;a3;;;;;180;P5;2;I1;n.a.;43157;Dellner Components Sp. z o.o.;
+21;108/SLV/DC;internal;PN-EN ISO 15614-1;135;S355J2+N;S355J2+N;1.2;1.2;P;BW;BW12 (12);BW12: max24 (3 - 24);N.A.;N.A.;PA;BW 12 ss nb;;;;;;EMK 8;1;M21;n.a.;43181;Dellner Components Sp. z o.o.;
+22;109/SLV/DC;internal;PN-EN ISO 15613;141;S690QL;S355JR;1.2;3.1;P - T;BW;1/2Y4 (10);1/2Y4: max8 (3 - 20);D15;≥ Ø7,5;PA;1/2Y4;;;;;100;ER 100 S-G;2,4;I1;n.a.;43691;Dellner Components Sp. z o.o.;1090671
+23;11/SLV/D;internal;PN-EN ISO 15614-1;135;S355J2G3;S355J2G3;1.2;1.2;P;BW;Y3 (5,0 - 17,0);3,0 - 34,0;;>500;PA;1/2Y3;;;-;-;-;OK Autrod 12.64;1;M21;-;2013.03.15;Dellner Couplers;
+24;110R/SLV/DC;internal;PN-EN ISO 15614-1;138 Robot;SS2225-23;E590K2+QT;1.3;5.1;T;BW;BW15 (12,5 - 14,5);BW15: max30 (6 - 29);D286;≥ Ø143;PA;BW15 ss mb;;;;;180;Bohler 700 T-MC;1,2;M21;n.a.;43385;Dellner Components Sp. z o.o.;181435
+25;111R/SLV/DC;internal;PN-EN ISO 15614-1;138 Robot;Ovako 280T;Ovako 280T;1.3;1.3;T;BW;BW16 (28);BW16: max32 (14 - 56);D170;≥ Ø85;PA;BW16 ss mb;;;;;n.a.;Bohler X70 l-MC;1,2;M21;n.a.;43385;Dellner Components Sp. z o.o.;
+26;112R/SLV/DC;internal;PN-EN ISO 15613;138 Robot;E470+AR;S355J2+N;1.2;1.3;P - T;BW;1/2Y5 (15 - 53);1/2Y5: max10 (7,5 - 58,3);D230;≥ Ø115;PA;1/2Y5;;;;;t = (30 - 45) 75      t = (45 - 50) 150;Bohler 700 T-MC;1,2;M21;n.a.;43861;Dellner Components Sp. z o.o.;1113382
+27;113R/SLV/DC;internal;PN-EN ISO 15614-1;138 Robot;E470+AR;S355J2+N;1.2;1.3;P - T;FW;a3 (15 - 53);a3: 2,25 - 4,5 (≥3);D230;≥ Ø115;PB;a3;;;;;t = (30 - 45) 75      t = (45 - 50) 150 t≥(50) 180;Bohler 700 T-MC;1,2;M21;n.a.;43861;Dellner Components Sp. z o.o.;1113382
+28;114/SLV/DC;internal;PN-EN ISO 15613;135;25CrMo4+QT;S690QL;3.1;5.1;P;BW;1/2Y7 (18 - 19,5);1/2Y7: max14 (9 - 39);n.a.;>500;PA;1/2Y7;;;;;180;OK AristoRod 69;1;M21;n.a.;43516;Dellner Components Sp. z o.o.;1118953
+29;115/SLV/DC;internal;PN-EN ISO 15614-1;135;25CrMo4+QT;S690QL;3.1;5.1;P;FW;a7 (18 - 19,5);a7: no restrictions (3- 39);n.a.;n.a.;PB;a7;;;;;180;OK AristoRod 69;1;M21;n.a.;43880;Dellner Components Sp. z o.o.;1118953
+30;116/SLV/DC;internal;PN-EN ISO 15613;141;SS2333;SS2333;8.1;8.1;P - T;FW;a3 (10);a3:  2,25 - 4,5 (3 - 20);D16;≥ Ø8;PB;a3;;;;;n.a.;OK Tigrod 308L Si;2,4;I1;n.a.;43901;Dellner Components Sp. z o.o.;1039322
+31;117/SLV/DC;internal;PN-EN ISO 15613;141;SS2333;SS2333;8.1;8.1;P - T;FW;plug weld (10);plug weld: 2,25 - 4 (3 - 20);D12;Ø3 - Ø24;PB;plug weld;;;;;n.a.;OK Tigrod 308L Si;2,4;I1;n.a.;43901;Dellner Components Sp. z o.o.;1039322
+32;118/SLV/DC;internal;PN-EN ISO 15613;135;S690QL;E460K2+N;1.3;3.1;P - T;BW;1/2Y6 (8 - 15);1/2Y6: max12 (4- 16,5);D96;≥ Ø48;PA;1/2Y6;;;;;100;OK AristoRod 69;1;M21;n.a.;43920;Dellner Components Sp. z o.o.;1051624
+33;119/SLV/DC;internal;PN-EN ISO 15614-1;135;S690QL;E460K2+N;3.1;1.3;P - T;FW;a5 (11 - 15);a5: 3,75 - 7,5 (3 - 30);D102;≥ Ø51;PB;a5;;;;;100;OK AristoRod 69;1;M21;n.a.;43920;Dellner Components Sp. z o.o.;1051624
+34;12/SLV/D;internal;PN-EN ISO 15614-1;135;25CrMo4;25CrMo4;5.1;5.1;P;BW;BW18,0;9,0 - 36,0;;>500;PA;BW 18 ss mb;;;-;-;-;OK AristoRod 69;1;M21;-;2014.08.14;Dellner Couplers;
+35;120R/SLV/DC;internal;PN-EN ISO 15613;138 Robot;790QL;S355J2+N;1.2;3.2;P - T;BW;1/2Y5 (15 - 53);1/2Y5: max10 (7,5 - 58,3);D230;≥ Ø115;PA;1/2Y5;;;;;t = (30 - 45) 75      t = (45 - 50) 150;Bohler 700 T-MC;1,2;M21;n.a.;43930;Dellner Components Sp. z o.o.;1113382
+36;121R/SLV/DC;internal;PN-EN ISO 15614-1;138 Robot;790QL;S355J2+N;1.2;3.2;P - T;FW;a3 (15 - 53);a3: 2,25 - 4,5 (≥3);D230;≥ Ø115;PB;a3;;;;;t = (30 - 45) 75      t = (45 - 50) 150 t≥(50) 180;Bohler 700 T-MC;1,2;M21;n.a.;43930;Dellner Components Sp. z o.o.;1113382
+37;122/SLV/DC;internal;PN-EN ISO 15614-1;111;790QL;SS2333;3.2;8.1;P - T;FW;a3 (8 - 25);a3: 2,25 - 4,5 (3 - 25);D25;≥ Ø12,5;PB;a3;;;;;n.a.;OK 67.70;2,5;n.a.;n.a.;43930;Dellner Components Sp. z o.o.;1113382
+38;123/SLV/DC;internal;PN-EN ISO 15613;135;Ovako 280 (E470);S700MCE;1.3;2.2;P - T;BW;1/2Y8 (10 - 14,25);1/2Y8: max16 (3 - 28,5);D114;≥ Ø57;PA;1/2Y8;;;;;n.a.;OK AristoRod 69;1;M21;580;43962;Dellner Components Sp. z o.o.;1015662
+39;124/SLV/DC;internal;PN-EN ISO 15613;135;S500 ML;S700MCE;2.1;2.2;P;BW;1/2Y10 (10 - 25);1/2Y10: max20 (3 - 50);n.a.;>500;PA;1/2Y 10;;;;;n.a.;OK AristoRod 69;1;M21;580;43962;Dellner Components Sp. z o.o.;1015662
+40;125/SLV/DC;internal;PN-EN ISO 15613;135;S700 MCE;S700MCE;2.2;2.2;P;BW;5X (10);5X: max10 (3 - 20);n.a.;>500;PA;5X bs gg;;;;;n.a.;OK AristoRod 69;1;M21;580;2020.0511;Dellner Components Sp. z o.o.;1015662 żłobienie
+41;126/SLV/DC;internal;PN-EN ISO 15613;141;M201 E;25CrMo4;5.1;5.1;P - T;BW;Y5 (11);Y5: max10 (5,5 - 22);D20;≥ Ø10;PA;Y5;;;;;180;OK Autrod 12.64;2;I1;n.a.;44151;Dellner Sp. z o.o.;1118468
+42;127/SLV/DPL;internal;PN-EN ISO 15613;135;S355J2+N;S355J2+N;1.2;1.2;P - T;FW;a3 (8 - Ø36);a3: 2,25 - 4,5 (3,0 - 16,0);D36;≥ Ø18;PB;a3;;;;;20;OK Autrod 12.64;1,0;M21;n.a.;2021.02.12;Dellner Sp. z o.o.;1114846
+43;128/SLV/DPL;internal;PN-EN ISO 15613;141;304;304;8.1;8.1;P - T;FW;a3 (18 - Ø33,7);a3 ml (3,0 - 36,0);D33,7;≥ Ø16.85;PB;a3;;;;;100;OK Tigrod 308LSi;1,6;I1;n.a.;2021.02.13;Dellner Sp. z o.o.;1118032
+44;129/SLV/DPL;internal;PN-EN ISO 15613;141;304;304;8.1;8.1;P - T;FW;a2 (Ø33,7x3.2 - Ø40x3);a2: 1,5 - 3,0 (3,0 - 6,4);D33,7;≥ Ø16.85;PB;a2;;;;;N/A;OK Tigrod 308LSi;1,6;I1;n.a.;2021.02.13;Dellner Sp. z o.o.;1118032
+45;13/SLV/D;internal;PN-EN ISO 15613;141/135;Weldox 700E;SS2333;3.1;8.1;P - T;BW;1/2Y7 (2,0 - 8,0);3,0 - 14,0 (1,5 - 16,0);D32;≥ Ø25;PA;1/2Y7;;;-;-;-;"141. P5 Avesta
+135. 309L-Si Avesta";"2,0
+1,0";"I1
+M12";-;2014.09.01;Dellner Couplers;
+46;130/SLV/DPL;internal;PN-EN ISO 15613;135;S355J2+N;S355J2+N;1.2;1.2;P - T;FW;a4 (10 - Ø25x6.45);a4: 3,0 - 6,0 (3,0 - 20,0);D25;≥ Ø12,5;PB;a4;;;;;20;OK Autrod 12.64;1,0;M21;n.a.;2021.02.13;Dellner Sp. z o.o.;1114846
+47;131/SLV/DPL;internal;PN-EN ISO 15613;135;S355J2+N;S355J2+N;1.2;1.2;P - T;FW;z2 (10 - Ø25x6.45);z2: 1,5 - 3,0 (3,0 - 20,0);D25;≥ Ø12,5;PB;z2;;;;;20;OK Autrod 12.64;1,0;M21;n.a.;2021.02.13;Dellner Sp. z o.o.;1114846
+48;132/SLV/DPL;internal;PN-EN ISO 15613;141;304;304;8.1;8.1;P - T;FW;a2 (6,0 - Ø8,0);a2: 1,5 - 3,0  (3,0 - 12,0);D8;≥ Ø4;PB;a2;;;;;20;OK Tigrod 308LSi;1,6;I1;n.a.;2021.02.13;Dellner Sp. z o.o.;
+49;133/SLV/DPL;internal;PN-EN ISO 15613;141;304;304;8.1;8.1;P - T;FW;a3 ml (8,0 - Ø12,0);a3 (3,0 - 16,0);D12;≥ Ø6;PB;a3;;;;;20;OK Tigrod 308LSi;1,6;I1;n.a.;2021.02.14;Dellner Sp. z o.o.;
+50;134/SLV/DPL;internal;PN-EN ISO 15613;135;S355J2+N;G24Mn6+QT1;1.2;3.1;P - T;FW;a3 (8 - 10);a3: 2,25 - 4,5 (3,0 - 20,0);N/A;>500;PB;a3;;;;;180;OK AristoRod 69;1,0;M21;n.a.;2021.02.14;Dellner Sp. z o.o.;1114768
+51;135/SLV/DPL;internal;PN-EN ISO 15613;141 / 111;G24Mn6+QT1;304;3.1;8.1;P - T;FW;a3 ml (Ø25,0x7,5 - #22);a3 (3,0 - 44,0);D25;≥ Ø12.5;PB;a3;;;;;180;OK Tigrod 309LSi / OK 67.70;1,6 / 2,5;I1 / -;n.a.;2021.02.14;Dellner Sp. z o.o.;
+52;136/SLV/DPL;internal;PN EN ISO 15614-3, 15613;111;SS727-02 (GJS 500-7);SS727-02 (GJS 500-7);72.1;72.1;T;BW;Y6 Ø40/9;4,5 - 16;D40;≥ Ø20;PA;Ys6;;;;;max. 250;OK 92.60;2,5;n.a.;n.a.;44253;Dellner Sp. z o.o.;1142536 żeliwo
+53;137/SLV/DPL;internal;PN EN ISO 15614-3, 15613;111;SS727-02 (GJS 500-7);SS727-02 (GJS 500-7);72.1;72.1;P;BW;Y5 (20);4,5 - 16;N/A;;PA;Ys5;;;;;max. 250;OK 92.60;2,5;n.a.;n.a.;44253;Dellner Sp. z o.o.;1142536 żeliwo
+54;138/SLV/DPL;internal;PN EN ISO 15613;141 / 111;SS727-02 (GJS 500-7);S355J2;72.1;1.2;P;BW / FW;a3 (6,5 - 16);a3: no limit(3 - 32);N/A;;PA / PB;s7 / a3;;;;;max. 250;OK 92.60;2,5;n.a.;n.a.;44253;Dellner Sp. z o.o.;1143728
+55;139/SLV/DPL;internal;PN EN ISO 15614-1, 15613;135;S355J2+N;S355J2+N;1.2;1.2;P - T;BW;Otworowa 3;1,5 - 6;D30;;PA;Otworowa 3;;;;;20;OK AristoRod 69;1,0;M21;n.a.;2021.03.01;Dellner Sp. z o.o.;1114731
+56;14/SLV/D;internal;PN-EN ISO 15614-1;111;25CrMo4;SS2333;5.1;8.1;P - T;FW;15,0 - 34,0;≥ 5;D30;≥ Ø25;PB;a3;;;-;-;-;OK 67.70;2,5;-;-;2016.04.29;Dellner Sp. z o.o.;
+57;140/SLV/DPL;internal;PN EN ISO 15614-1, 15613;135;S460NL;S690QL;1.3;3.1;P - T;FW;z4;3 - 24;D50;;PB;z4;;;;;50;OK AristoRod 69;1,0;M21;n.a.;2021.03.01;Dellner Sp. z o.o.;1114731
+58;141/SLV/DPL;internal;PN EN ISO 15614-1, 15613;135;S355J2+N;E460K2+N;1.2;1.3;P - T;FW;a3;3 - 45;D125;≥ Ø62.5;PB;a3;;;;;50;OK Autrod 12.64;1,0;M21;n.a.;2021.03.09;Dellner Sp. z o.o.;1114712
+59;142/SLV/DPL;internal;PN EN ISO 15613;141 / 111;SS727-02 (GJS 500-7);S355J2;72.1;1.2;P;FW;a3 (9 - 15);a3: no limit(3 - 30);N/A;;PB;a3;;;;;max. 250;OK 92.60;2,5;n.a.;n.a.;2021.03.11;Dellner Sp. z o.o.;161002
+60;143/SLV/DPL;internal;PN EN ISO 15613;141;34CrNiMo6 QT;C45;5.1;11.2;P;BW;1/2 Y 2,5 (8);1/2 Y 2,5:max 5(3 - 16);N/A;;PA;1/2 Y 2,5;;;;;max. 250;OK Tigrod 12.64;2;I1;n.a.;2021-03-23;Dellner Sp. z o.o.;1140728                                                                                                                                  Wartości twardości złacza musza zostać uzgodnione pomiedzy wykonawcą a klientem.
+61;144/SLV/DPL;internal;PN EN ISO 15613;135;S355J2H;S355J2;1.2;1.2;P;BW;1/2Y 3,5;4 - 22;D20;;PA;;;;;;-;OK Autrod 12.64;1;M21;n.a.;2021-03-24;Dellner Sp. z o.o.;1143351
+62;145/SLV/DPL;internal;PN EN ISO 15613;135;S690QL;S690QL;3.1;3.1;P;FW;a8;3 - 90;N/A;;PA/PB;;;;;;;OK AristoRod 69;1;M21;250;2021-03-30;Dellner Sp. z o.o.;1142871
+63;146/SLV/DPL;internal;PN EN ISO 15613;138 Robot;E460K2+N;S355J2+N;1.2;1.3;T;FW;a5 (18 - 25);a5: 3,75- 7,5 (3 - 50);D152;≥ Ø76;PB;a5;;;;;180;Diamondspark 700 MC (Bohler);1,2;M21;n.a.;2021-03-31;Dellner Sp. z o.o.;1044944
+64;147/SLV/DC;internal;PN EN ISO 15613;138 Robot;E460K2+N;S355J2+N;1.2;1.3;T;FW;a3(18 - 41);a3: 2,25 - 4,5(3 - 82);D152;≥ Ø76;PB;a3;;;;;180;Diamondspark 700 MC (Bohler);1,2;M21;n.a.;2021-03-31;Dellner Sp. z o.o.;1044944
+65;148/SLV/DC;internal;PN EN ISO 15613;138 Robot;E460K2+N;S355J2+N;1.2;1.3;T;BW;1/2Y6(18 - 41);1/2Y6: max12 (9- 82);D152;≥ Ø76;PA;1/2Y6;;;;;180;Diamondspark 700 MC (Bohler);1,2;M21;n.a.;2021-03-31;Dellner Sp. z o.o.;1044944
+66;183R/SLV/DPL;internal;PN EN ISO 15613;138 Robot;E460K2+N;DCAB 500D;1.3;5.1;T;BW;B18 ss mb;9,5 - 36;D184;≥ Ø92;;;;;;;;Diamondspark 700 MC (Bohler);1,2;M21;n.a.;2022-12-19;Dellner Sp. z o.o.;1170165-C 
+67;149/SLV/DPL;internal;PN EN ISO 15613;138 Robot;E460K2+N;S690QL;1.3;3.1;P;BW;8,5V;6,5 - 26;D114;≥ Ø57;PA;-;;;;;-;Diamondspark 700 MC (Bohler);1,2;M21;n.a.;2021-03-31;Dellner Sp. z o.o.;1142871
+68;15/SLV/D;internal;PN-EN ISO 15614-1;135/141;S355J2H2;S355J2H2;1.2;1.2;P - T;FW;6,0 - 16,0; 3,0 - 32,0;D88,9;≥ Ø44,45;PB;ml;;;-;-;-;"OK Autrod 12.64
+OK Tigrod 12.64
+nm";"1,0
+2,0";"M21
+I1";-;2016.07.02;Dellner Sp. z o.o.;dressing
+69;150/SLV/DPL;internal;PN EN ISO 15613;135;E460K2+N;E460K2+N;1.3;1.3;T;BW;1/2U8 (15 - 64);15 - 64;D130;≥ Ø65;PA;1/2U8;;;;;50;Bohler X 70-IG;1;M21;n.a.;2021-07-20;Dellner Sp. z o.o.;155839
+70;151/SLV/DPL;internal;PN EN ISO 15613;111;G26CrMo4+QT2;SS2333;5.1;8.1;T;FW;8,5 - 22;3 - 44;D25;≥ Ø25;PB;a3 ml;;;;;180;OK 67.70;2,5;-;n.a.;2021-07-20;Dellner Sp. z o.o.;159874
+71;152/SLV/DPL;internal;PN EN ISO 15613;135;S355J2+N;DCAB 500D;1.2;5.1;T;BW;1/2Y5;1/2Y5: max12 (3- 10);D20;≥ Ø10;PA;1/2Y5;;;;;180;OK Autrod 12.64;1;M21;n.a.;2021-10-20;Dellner Sp. z o.o.;155839
+72;153/SLV/DPL;internal;PN EN ISO 15613;141;304;304;8.1;8.1;T;BW;BW2;2 - 4;D32;≥ Ø16;PH;BW2;;;;;100;Avesta 308L-Si / MVR-Si;2;I1;n.a.;2021-12-27;Dellner Sp. z o.o.;1157672
+73;154/SLV/DPL;internal;PN EN ISO 15613;111;304;304;8.1;8.1;T;FW;a3;3 - 32;D25;≥ Ø25;PB;a3;;;;;75;ESAB OK 67.70;2,5;-;n.a.;2022-02-21;Dellner Sp. z o.o.;175282
+74;155/SLV/DPL;internal;PN EN ISO 15613;111; G24Mn6+QT1 ;304;3.1;8.1;T;FW;a3;3 - 40;D25;≥ Ø25;PB;a3;;;;;180;ESAB OK 67.70;2,4;-;n.a.;2022-02-22;Dellner Sp. z o.o.;175282
+75;156/SLV/DPL;internal;PN EN ISO 15613;141;6082T6;6082T6;23.1;23.1;T;BW;BW6;3 - 12;N/A;;PA;BW6;;;;;50;OK Tigrod 5183;2,4;I1;n.a.;2022-02-23;Dellner Sp. z o.o.;
+76;157/SLV/DPL;internal;PN-EN ISO 15613;135;S690QL;S690QL;3.1;3.1;P;Napawanie;80;3 - 12;-;>500;PA;Napawanie;;;;;-;OK AristoRod 69;1;M21;n.a.;2022-01-17;Dellner Sp. Z o.o.;
+77;158/SLV/DPL;internal;PN-EN ISO 15613;135;S355J2+N;25CrMo4+QT;1.2;5.1;T;BW;1/2C 8;3 - 42 (3 - 16);;>500;PA;1/2Y10;;;;;180;OK Autrod 12.64;1;M21;n.a.;2022-02-07;Dellner Sp. Z o.o.;
+78;159/SLV/DPL;internal;PN EN ISO 15613;135;S420MCD;DCAB 500D;2.1;5.1;T;BW;1/2Y7;3 - 12;D196;≥ Ø98;PA;1/2Y7;;;;;180;Bohler X 70-IG;1;M21;n.a.;2022-05-12;Dellner Sp. z o.o.;1165056
+79;159/SLV/DPL;internal;PN-EN ISO 15613;135;S420MCD;DCAB 500D;2.1;5.1;P;BW;12 + 15;"1. 3 - 24
+2. 3 - 30";-;>98;PA;1/2Y6;;;;;180;Bohler X 70-IG;1;M21;n.a.;2022-05-12;Dellner Sp. Z o.o.;
+80;16/SLV/D;internal;PN-EN ISO 15614-1;135;S235JRH2;S355J2;1.1;1.2;P - T;FW;3,0 - 6,0; 3,0 - 12,0;D52;≥ Ø26;PB;sl;;;-;-;-;OK Autrod 12.56;1;M21;-;2017.05.04;Dellner Sp. z o.o.;
+81;16/SLV/DA;internal;PN-EN ISO 15614-1;135;S355J2;SS2333;1.2;8.1;P - T;FW;6,0 - 7,0; 3,0 - 14,0;D35;≥ Ø25;PB;ml;;;-;-;-;OK 67.70;2,5;-;-;2017.05.04;Dellner Sp. z o.o.;
+82;160/SLV/DPL;internal;PN EN ISO 15613;135;S355J2+N;S420MCD;1.2;2.1;P;BW;1/2 Y6;"1. 3 - 16
+2. 7,5 - 30";N/A;>500;PA;BW 6 1/2Y;;;;;;OK AristoRod 69;1;M21;n.a.;2022-03-11;Dellner Sp. z o.o.;
+83;161/SLV/DPL;internal;PN-EN ISO 15613;135;S690QL;S690QL;3.1;3.1;T;FW;8 + 3-17;2.1 + 34;D90;≥ Ø45;PB;a2, a6;;;;;180;OK AristoRod 69;1;I1 / M21;n.a.;2022-03-21;Dellner Sp. Z o.o.;
+84;162/SLV/DPL;internal;PN-EN ISO 15613;141;S355J2+N;S690QL;1.2;3.1;T;FW;a2;"1. 3 - 20
+2. t ≥ 5";D20;>10;PA;a2;;;;;50;OK Tigrod 12.64 ;1,6;I1;n.a.;2022-05-26;Dellner Sp. Z o.o.;
+85;163/SLV/DPL;internal;PN-EN ISO 15613;138;S690QL;S690QL;3.1;3.1;T;BW;1/2Y10;"1. 3 - 20
+2. 3 - 20";D59;>29,5;PA;BW 1/2Y10;;;;;120;Fluxofil M42;1,2;M21;n.a.;2022-06-15;Dellner Sp. Z o.o.;
+86;164/SLV/DPL;internal;PN EN ISO 15613;135;S690QL;S690QL;3.1;3.1;P;BW;1/2 Y4;t1 (10-22) t2 (4-10);N/A;;PA/PB;BW 1/2Y 4;;;;;;OK AristoRod 69;1;M21;n.a.;2022-03-21;Dellner Sp. z o.o.;1156455-C
+87;165/SLV/DPL;internal;PN EN ISO 15613;135;S690QL;S690QL;3.1;3.1;P;BW + FW;1/2 Y4 + a5;t1 (3 - 10) t2 (10 - 22);N/A;;PA/PB;BW 1/2Y 4 + a5;;;;;;OK AristoRod 69;1;M21;n.a.;2022-03-21;Dellner Sp. z o.o.;1156455-C
+88;166/SLV/DPL;internal;PN EN ISO 15613;135;Domex 355MCD;St52-3;1.2;1.1;P;BW;4 brzegowa;t1 (8,5 - 17) t2 (5,5 - 11);N/A;;PA/PB;4 brzegowa;;;;;;OK Autrod 12.64;1;M21;n.a.;2022-03-28;Dellner Sp. z o.o.;15006231
+89;167/SLV/DPL;internal;PN EN ISO 15613;135;St37-1;St37;1.1;1.1;T;BW;1,5 1/2Y;t1 = 3,2- 4,16 t2 =0,75-3;D>44,5;;PA/PB;1,5 1/2Y;;;;;;OK Autrod 12.64;1;M21;n.a.;2022-03-28;Dellner Sp. z o.o.;15006231
+90;168/SLV/DPL;internal;PN EN ISO 15613;135;St37;Domex 355MCD;1.1;1.2;T;FW;z1,5;t1 = 3- 11 t2 =1,05-3;D>43;;PA/PB;z1,5;;;;;;OK Autrod 12.64;1;M21;n.a.;2022-03-28;Dellner Sp. z o.o.;15006231
+91;169/SLV/DPL;internal;PN EN ISO 15613;135;Cromax 482;St52-3;11.2;1.2;T;FW;a4;t1 = 3- 14 t2 =1,4-4;D>20;;PA/PB;a4;;;;;;OK Autrod 12.64;1;M21;n.a.;2022-03-28;Dellner Sp. z o.o.;15005268
+92;169-DC;internal;EN 288-3;135;Weldox 700E;Weldox 700E;3.1;3.1;P;BW, FW;4,0 - 40,0;"BW 3,2 - 4,4
+FW 20 - 80";-;>500;PA;;;;-;-;-;Bohler X 70-IG;1;M21;-;2004.12.03;Dellner Couplers;
+93;17/SLV/D;internal;PN-EN ISO 15614-1;135/141;S690QL;E470 (Ovako 280);3.1;1.3;P - T;FW;16,0 - 25,0; 8,0 - 50,0;D50;≥ Ø25;PB;ml;;;-;-;-;"OK AristoRod 69
+OK Tigrod 13.12
+nm";"1,2
+2,0";"M21
+I1";-;2017.07.03;Dellner Sp. z o.o.;dressing
+94;170/SLV/DPL;internal;PN EN ISO 15613;135;S355J2+N;S420MCD;1.2;2.2;P/T;BW;1/2 V8;"1. 3 - 16
+2. 3 - 20";N/A;>500;PA;BW 8 1/2V;;;;;;OK AristoRod 69;1;M21;n.a.;2022-03-11;Dellner Sp. z o.o.;
+95;171/SLV/DPL;internal;PN EN ISO 15613;"142
+135";S355J2+N;E460K2+N;1.2;1.3;P/T;Otworowa;otworowa Ø16;"3 - 30 
+≥ Ø16";Ø16;≥ Ø16;PB;otworowa fi 16;;;;;;OK AristoRod 69;1;I1 / M21;n.a.;2022-03-21;Dellner Sp. z o.o.;1164057-C
+96;172/SLV/DPL;internal;PN EN ISO 15613;135;Ovako 280;S690QL;1.3;3.1;P/T;BW;BW 1/2Y 6;t1 (3 - 16) t2 (3-18);Ø58;≥ Ø25;PA/PB;BW 1/2Y 6;;;;;;OK AristoRod 69;1;M21;n.a.;2022-03-21;Dellner Sp. z o.o.;1156455-C
+97;173/SLV/DPL;internal;PN EN ISO 15613;135;S690QL;S690QL;3.1;3.1;P;BW + FW;1/2 Y4 + a3;3-10;N/A;;PA/PB;BW 1/2Y 4 + a3;;;;;;OK AristoRod 69;1;M21;n.a.;2022-03-21;Dellner Sp. z o.o.;1156455-C
+98;174/SLV/DPL;internal;PN EN ISO 15613;138;S355J2+N;S355J2+N;1.2;1.2;P;BW;"1/2 Y10
+Y10";15 - 72 (3 - 20);D≥ 30;;PA;"1/2Y 10
+Y 10";;;;;180;Fluxofil M42;1,2;M21;n.a.;2022-07-06;Dellner Sp. z o.o.;1165581-C
+99;175/SLV/DPL;internal;PN EN ISO 15613;138;S355J2+N;DCAB 500;1.2;5.1;P;BW;Y10;15 - 72 (3 - 20);N/A;;PA;Y10;;;;;180;Fluxofil M42;1,2;M21;n.a.;2022-07-06;Dellner Sp. z o.o.;1165581-C
+100;176/SLV/DPL;internal;PN EN ISO 15613;138;S355J2+N;DCAB 500;1.2;5.1;P;BW;Y13;11,5 - 60 (6,5 - 26);N/A;;PA;Y13;;;;;180;Fluxofil M42;1,2;M21;n.a.;2022-07-06;Dellner Sp. z o.o.;1165581-C
+101;177/SLV/DPL;internal;PN EN ISO 15613;141;S355J2C;E470 (Ovako 280);1.2;1.3;P;BW;1/2 Y 2,5;1/2 Y 2,5:max 5(3 - 16);N/A;;PA;1/2 Y 2,5;;;;;max. 200;OK Tigrod 12.64;2;I1;n.a.;2021-03-23;Dellner Sp. z o.o.;1145455-C
+102; 178/SLV/DPL ;internal;PN EN ISO 15614;135; S690QL ; S690QL ;3.1;3.1; P ;BW; V12 ;3-24;N/A; D≥500 ; PA ; V12 ;;;;;100;OK AristoRod 69;1;M21;n.a.;;Dellner Sp. z o.o.;
+103;179/SLV/DPL;internal;PN EN ISO 15614;141;S355;S690QL;1.2;3.1;P;FW;a2;1,05 - 24;D20;D≥10;PA;V12;;;;;100;OK Tigrod 12.64;2;I1;n.a.;2022-10-26;Dellner Sp. z o.o.;
+104;18/SLV/D;internal;PN-EN ISO 15614-1;135;S690QL;E470 (Ovako 280);3.1;1.3;P - T;FW;16,0 - 30,0; 8,0 - 50,0;D60;≥ Ø25;PB;a5;;;-;-;-;OK AristoRod 69;1;M21;-;2017.06.03;Dellner Sp. z o.o.;
+105;180/SLV/DPL;internal;PN EN ISO 15614;135;S355;S790QL;1.2;3.2;P;FW;a4;3-30;N/A;;;;;;;;;OK AristoRod 69;1;M21;;;Dellner Sp. z o.o.;
+106;181/SLV/DPL;internal;PN EN ISO 15613;135;S355;DCAB 600E;1.2;5.1;P ;BW;1/2 Y 5;3-80;N/A;s3-10;;;;;;;;OK Autrod 12.64;1;M21;;;Dellner Sp. z o.o.;
+107;182/SLV/DPL;internal;PN EN ISO 15613;135;S355;E590K2+QT;1.2;1.3;P ;BW;1/2 Y 6;3-30 20-82;;>72;;;;;;;;OK AristoRod 69;1;M21;;;Dellner Sp. z o.o.;
+108;184/SLV/DPL;internal;PN EN ISO 15613;141;S355;E470 (Ovako 280);1.2;1.3;P-T;FW;a3;3,0 - 16;D12;≥ Ø6;;;;;;;;ESAB OK Tigrod 12.64;2,0;I1;n.a.;2022-12-27;Dellner Sp. z o.o.;1169929-C
+109;185R/SLV/DPL;internal;PN-EN ISO 15613;138 Robot;E590K2QT;DCAB 600D;3.1;5.1;T;BW;V7 (3 - 14);V7: 3,0 - 14,0;D244;≥ Ø122;Fluxofil M42;1,2;M21;n.a.;41326;Dellner Components Sp. z o.o.;1018602;Diamondspark 700 MC (Bohler);1,2;M21;n.a.;2022-12-28;Dellner Sp. z o.o.;
+110;186/SLV/DPL;internal;PN-EN ISO 15613;135; S690QL ; S690QL ;3.1;3.1; P ;BW;1/2 Y 6;3,0-16,0 35-140;N/A; D≥500 ;;;;;;;;OK AristoRod 69;1,0;M21;n.a.;2023-01-03;Dellner Sp. z o.o.;
+111;187/SLV/DPL;internal;PN-EN ISO 15613;138;S355J2;G18NiMoCr3-6;1.2;5.1;P;FW;a4;3 - 40 / ≥ 5;-; D≥500 ;;;;;;;;Fluxofil M42;1,2;M21;n.a.;2023-01-04;Dellner Sp. z o.o.;
+112;188/SLV/DPL;internal;PN-EN ISO 15613;138;S355J2;G18NiMoCr3-6;1.2;5.1;P;BW;1/2Y10;3 - 20 (3 - 40 / ≥ 5);-; D≥500 ;;;;;;;;Fluxofil M42;1,2;M21;n.a.;2023-01-04;Dellner Sp. z o.o.;
+113;189/SLV/DPL;internal;PN-EN ISO 15613;111;G18NiMoCr3-6;1.4301;5.1;8.1;P-T;FW;a3;3 - 20;D25;≥ Ø25;PB;a3;;;-;-;-;OK 67.70;3,2;-;-;;Dellner Sp. z o.o.;
+114;190/SLV/DPL;internal;PN-EN ISO 15613;141;S355J2G3;1.4305;1.2;8.1;T;BW;10;3,0 - 20,0;D10;≥ Ø10;;;;;;;;Avesta P5;2,0;I1;;2023.01.04;Dellner Sp. z o.o.;
+115;191/SLV/DPL;internal;PN-EN ISO 15613;141;S355J2G3;S355J2G3;1.2;1.2;T;BW;8 -12;t1 (3 - 16) t2 (3-24);D38;≥ Ø19;;;;;;;;OK Tigrod 12.64;2;I1;n.a.;2023.01.04;Dellner Sp. z o.o.;
+116;192/SLV/DPL;internal;PN-EN ISO 15613;135;S690QL;34CrNiMo6;3.1;5.1;P;BW;Y8+1/2 3;3-20;D24;≥ Ø12;;;;;;;;OK AristoRod 69;1;M21;;2023.01.04;Dellner Sp. z o.o.;
+117;193/SLV/DPL;internal;PN-EN ISO 15613;135;S355J2;E470 (Ovako 280);1.2;1.3;P;BW;1/2 Y6;12,5-50;D135;≥ Ø67,5;;;;;;;;OK AristoRod 69;1;M21;;2023.01.04;Dellner Sp. z o.o.;
+118;19/SLV/D;internal;PN-EN ISO 15614-1;135;S355J2;S355J2;1.2;1.2;P;BW;12,0;3,0 - 24,0;-;>500;PA;ss nb;;;-;-;-;OK Autrod 12.64;1;M21;-;2017.08.01;Dellner Sp. z o.o.;
+119;2/SLV/DC;internal;EN 288-3;135;Weldox 960E;Weldox 960E;3.2;3.2;P;FW;12,0;3,0 - 24,0;-;>500;PB;a3,5;;;-;-;-;Bohler X 90-IG;1,2;M21;-;2004.11.20;Dellner Couplers;
+120;20/SLV/D;internal;PN-EN ISO 15614-1;111;25CrMo4;304L;5.1;8.1;P-T;FW;8,5 - 34;≥ 5;D25;≥ Ø25;PB;a3;;;-;-;-;OK 67.70;2,5;-;-;2017.08.01;Dellner Sp. z o.o.;
+121;21/SLV/D;internal;PN-EN ISO 15613;135;S355J2;S355J2C;1.2;1.2;P-T;BW+FW;"1/2Y6 + a6
+(7,0 - 15,0)";3,0 - 12,0;D28;≥ Ø25;PA + PB;"1/2Y6
+a6";;;-;-;-;OK Autrod 12.64;1;M21;-;2017.09.14;Dellner Sp. z o.o.;
+122;21/SLV/DC;internal;PN-EN ISO 15614-1;135;Weldox 960;Weldox 960;3.2;3.2;P;BW;4,0;3,0 - 8,0;-;>500;PA;ss nb;;;-;-;-;Bohler X 70-IG;1;M21;-;2013.10.01;Dellner Couplers;
+123;22/SLV/D;internal;PN-EN ISO 15614-1;141;S355J2C;4462 (duplex);1.2;10.1;P-T;FW;12,0 - 12,5;≥ 3,0;D25;≥ Ø25;PB;ml;;;-;-;-;OK Tigrod 22.09;2;I1;-;2017.09.14;Dellner Sp. z o.o.;
+124;23/SLV/D;internal;PN-EN ISO 15614-1;135;S355J2C;G24Mn6;1.2;5.1;P-T;FW;12,0 - 17,0;3,0 - 34,0;D192;≥ Ø96;PB;a4;;;-;-;-;Bohler X 70-IG;1;M21;-;2018.03.08;Dellner Sp. z o.o.;
+125;23/SLV/DC;internal;PN-EN ISO 15613;111;SS2333;S355JR;1.2;8.1;P-T;BW;Ø10;2 - 4;Ø10;Ø5 - Ø20;PA;2Y;;;-;-;-;OK 67.70;2,5;-;-;2013.10.01;Dellner Couplers;
+126;24/SLV/D;internal;PN-EN ISO 15614-1;138;S460NH2;DCAB 500D;1.3;5.1;T;BW;12,0 (16,0);6,0 - 24,0 (8,0 - 32,0);D192;≥ Ø96;PA;BW 12 ss mb;;;-;-;-;Fluxofil M42;1,2;M21;-;2017.12.21;Dellner Sp. z o.o.;
+127;24/SLV/DC;internal;PN-EN ISO 15613;141;SS2346;SS2333;8.1;8.1;T;FW;Ø12;-;Ø12 - Ø25;Ø12,5 - Ø50;PB;a3;;;-;-;-;Avesta P5;2,4;I1;-;2008.04.21;Dellner Couplers;
+128;25/SLV/D;internal;PN-EN ISO 15614-1;138;Ovako 280;DCAB 500D;1.3;5.1;T;BW;19,0 (22,5 - 28,5);9,5 - 38,0 (11,25 - 44,9);D162;≥ Ø81;PA;BW 19 ss mb;;;-;-;-;Fluxofil M42;1,2;M21;-;2018.04.09;Dellner Sp. z o.o.;
+129;25/SLV/DC;internal;PN-EN ISO 15613;135;Domex 420MCD;SS2172-21;2.1;1.2;P;BW Y5;12 (5Y);6 - 24 (3 - 10);-;>500;PA;Y5;;;-;-;-;Bohler X 70-IG;1;M21;-;2013.10.01;Dellner Couplers;
+130;26/SLV/D;internal;PN-EN ISO 15614-1;111;DCAB 500D (G10MnMoV6-3);304L;5.1;8.1;P-T;FW;12,5 - 28,5;3,0 - 57,0;D25;≥ Ø25;PB;a3;;;-;-;-;OK 67.70;2,5;-;-;2018.04.10;Dellner Sp. z o.o.;
+131;26/SLV/DC;internal;PN-EN ISO 15614-1;135;"S355N
+";"S355N
+";1.2;1.2;P;BW;6;3 - 12;-;>500;PA;ss nb;;;-;-;-;OK Autrod 12.56;1;M21;-;2013.10.01;Dellner Couplers;
+132;27/SLV/D;internal;PN-EN ISO 15614-1;141;S355J2C;34CrNiMo6;1.2;5.1;P;FW;12,0 - 20,0;3,0 - 40,0;-;>500;PB;a3;;;-;-;-;OK Tigrod 12.64;2;I1;-;2018.04.10;Dellner Sp. z o.o.;
+133;27/SLV/DC;internal;PN-EN ISO 15613;135;S355N;25CrMo4;1.2;5.1;T;BW;3Y / 8Y;2,1 - 16;D32;>25;PA;3Y, 8Y;;;-;-;-;OK Autrod 12.56;1;M21;-;2013.10.01;Dellner Couplers;
+134;28/SLV/D;internal;PN-EN ISO 15614-1;141;34CrNiMo6;304L;5.1;8.1;P;FW;10,0;3,0 - 20,0;D14;Ø7 - Ø28;PB;a3;;;-;-;-;OK Tigrod 309L;2;I1;-;2018.05.29;Dellner Sp. z o.o.;
+135;28/SLV/DC;internal;PN-EN ISO 15614-1;135;Domex 420MCD;Domex 420MCD;2.1;2.1;P;FW;2,5;1,5 - 5,0;-;>500;PB;a3;;;-;-;-;OK Autrod 12.64;1;M21;-;2008.06.19;Dellner Couplers;
+136;29/SLV/D;internal;PN-EN ISO 15614-1;141;S355J2;316L;1.2;8.1;P;FW;11,0;3,0 - 20,0;D10;Ø5 - Ø20;PB;otworowa;;;-;-;-;Avesta P5;2;I1;-;2018.09.11;Dellner Sp. z o.o.;
+137;29/SLV/DC;internal;PN-EN ISO 15614-1;135;Domex 700MCD;Domex 700MCD;2.2;2.2;P;FW;2,5;1,5 - 5,0;-;>500;PB;a3;;;-;-;-;Bohler X 70-IG;1;M21;-;2008.06.19;Dellner Couplers;
+138;30/SLV/D;internal;PN-EN ISO 15614-1;141;304;304;8.1;8.1;P;FW;10,0;3,0 - 20,0;-;>500;PB;a2,5;;;-;-;-;OK Tigrod 308LSi;2;I1;-;2018.09.17;Dellner Sp. z o.o.;
+139;30/SLV/DC;internal;PN-EN ISO 15614-1;141;SS2333;SS2333;8.1;8.1;P;FW;2,0;1,4 - 4,0;-;>500;PB;a2;;;-;-;-;Avesta 308L-Si / MVR-Si;1;I1;-;2008.06.13;Dellner Couplers;
+140;31/SLV/D;internal;PN-EN ISO 15614-1;135;304;304;8.1;8.1;P;FW;10,0;3,0 - 20,0;-;>500;PB;a4;;;-;-;-;OK Autrod 308LSi;1;M12;-;2018.09.17;Dellner Sp. z o.o.;
+141;31/SLV/DC;internal;PN-EN ISO 15614-1;141;Domex 420MCD;Domex 420MCD;2.1;2.1;P;FW;2,0;1,4 - 4,0;-;>500;PB;a2;;;-;-;-;OK Tigrod 12.64;2;I1;-;2008.06.13;Dellner Couplers;
+142;32/SLV/D;internal;PN-EN ISO 15614-1;135;304;304;8.1;8.1;P;BW;10,0;3,0 - 12,0;-;>500;PA;ss cb;;;-;-;-;OK Autrod 308LSi;1;M12;-;2018.09.20;Dellner Sp. z o.o.;
+143;32/SLV/DC;internal;PN-EN ISO 15614-1;141;Domex 420MCD;Domex 420MCD;2.1;2.1;P;FW;3,0;2,1 - 6,0;-;>500;PB;a2;;;-;-;-;OK Tigrod 12.64;2;I1;-;2008.06.13;Dellner Couplers;
+144;33/SLV/D;internal;PN-EN ISO 15614-1;138;E460K2+N;E460K2+N;1.3;1.3;T;BW;13,0 (14,1 - 29);6,5 - 26,0 (7,05 - 58);D170;≥ Ø85;PA;BW 13 ss mb;;;-;-;-;Fluxofil M42;1,2;M21;-;2019.10.15;Dellner Sp. z o.o.;159865
+145;33/SLV/DC;internal;PN-EN ISO 15614-1;141;S355J2G3;S235G2T;1.2;1.1;P-T;FW;1,5 - 4,0;1,5 - 8,0;D8;Ø4 - Ø16;PB;a2;;;-;-;-;OK Tigrod 12.64;2;I1;-;2013.10.01;Dellner Couplers;
+146;34/SLV/D;internal;PN-EN ISO 15614-1;141;S355J2+N;E460K2+N;1.2;1.3;P - T;FW;2,0 - 22,0;1,4 - 44,0;D170;≥ Ø85;PB;a2;;;-;-;-;OK Tigrod 13.09;2;I1;-;2019.10.15;Dellner Sp. z o.o.;159865
+147;34/SLV/DC;internal;PN-EN ISO 15613;141;S355J2G3;SS2333;1.2;8.1;P-T;FW;4,0;3,0 - 8,0;D13;Ø6,5 - Ø26;PB;a2;;;-;-;-;Avesta P5;2;I1;-;2013.10.01;Dellner Couplers;
+148;35/SLV/D;internal;PN-EN ISO 15614-1;135;E355+N;S420+N;1.2;2.1;P;FW;1/2Y7;2.225 - 28,0 (3,5 - 14,0);D34;≥ Ø17;PA;Y7;;;-;-;-;OK Autrod 12.64;1;M21;-;2019.10.08;Dellner Couplers;
+149;35/SLV/DC;internal;PN-EN ISO 15613;141;S355J2G3;SS2346-04;1.2;8.1;otworowa;otworowa;2,0 - 9,0;1,0 - 2,1;D9;Ø4,5 - Ø18;PA;otworowa 2;;;-;-;-;Avesta P5;2,4;I1;-;2013.10.01;Dellner Couplers;
+150;36/SLV/D;internal;PN-EN ISO 15614-1;142/111;S355J2+N;SS2333;1.2;8.1;P - T;FW;6,0 - 8,0; 3,0 - 16,0;D25;≥ Ø25;PB;ml;;;-;-;-;nm / OK 67.70;2,5;I1/-;-;2019.10.01;Dellner Sp. z o.o.;
+151;36/SLV/DC;internal;PN-EN ISO 15614-1;135;Domex 700MCD;SS1330-05;2.2;1.1;P-T;FW;1,5 - 3,0;1,05 - 6,0;D20;Ø10 - Ø40;PB;a3;;;-;-;-;Bohler X 70-IG;1;M21;-;2008.06.18;Dellner Couplers;
+152;37/SLV/D a2;internal;PN-EN ISO 15614-1;135;S355J2+N;E355+N;1.2;1.2;P - T;FW;4,0 - 8,0; 3,0 - 16,0;D58;≥ Ø29;PB;a2;;;-;-;-;OK Autrod 12.56;1;M21;-;2019.09.10;Dellner Sp. z o.o.;
+153;37/SLV/D a3;internal;PN-EN ISO 15614-1;135;S355J2+N;E355+N;1.2;1.2;P - T;FW;5,0 - 6,0; 3,0 - 12,0;D88;≥ Ø44;PB;a3;;;-;-;-;OK Autrod 12.64;1;M21;-;2019.09.10;Dellner Sp. z o.o.;
+154;37/SLV/DC;internal;PN-EN ISO 15614-1;141;Domex 700MCD;SS2333;2.2;8.1;P-T;FW;1,5 - 3,0;1,05 - 6,0;D25;Ø12,5 - Ø50;PB;a2;;;-;-;-;Avesta P5;2;I1;-;2008.06.18;Dellner Couplers;
+155;38/SLV/D a3 a4;internal;PN-EN ISO 15613;135;S355J2+N;S355NH;1.2;1.2;P - T;FW;4,0 - 8,0;3,0 - 16,0;RK100x50;≥ Ø25 RK;PB;"a3
+a4";;;-;-;-;OK Autrod 12.64;1;M21;-;2019.12.19;Dellner Sp. z o.o.;159980
+156;38/SLV/D z3;internal;PN-EN ISO 15613;135;S355J2+N;S355NH;1.2;1.2;P - T;FW;4,0 - 5,0;3,0 - 10,0;RK100x50;≥ Ø25 RK;PB;z3;;;-;-;-;OK Autrod 12.64;1;M21;-;2019.12.19;Dellner Sp. z o.o.;159980
+157;38/SLV/DC;internal;PN-EN ISO 15614-1;138;Ovako 280;SS2225-23;1.3;5.1;T;BW;18 (22);9,0 - 36,0 (11,0 - 44,0);D170;≥ Ø85;PA;ss mb;;;-;-;-;Fluxofil M42;1,2;M21;-;2013.10.01;Dellner Couplers;obrotnik
+158;39/SLV/D;internal;PN-EN ISO 15613;135;S355N;G24Mn6+QT1;1.2;5.1;P;BW;3,0 - 40,0;Y3 (3,0 - 6,0);D192;≥ Ø96;PA;Y3;;;-;-;180;Bohler X 70-IG;1;M21;-;2019.09.13;Dellner Sp. z o.o.;
+159;39/SLV/DC;internal;PN-EN ISO 15614-1;138;Ovako 280;Ovako 280;1.3;1.3;T;BW;12 (16);3,0 - 24,0 (8,0 - 32,0);D150;≥ Ø75;PA;ss mb;;;-;-;-;Fluxofil M42;1,2;M21;-;2013.10.01;Dellner Couplers;obrotnik
+160;4/SLV/DC;internal;EN 288-3;135;Weldox 960E;Weldox 960E;3.2;3.2;P;FW;12,0;3,0 - 24,0;-;>500;PB;a3,5;;;-;-;-;Bohler X 70-IG;1;M21;-;2004.11.20;Dellner Couplers;
+161;40/SLV/D;internal;PN-EN ISO 15613;138;S355N;S460NH;1.2;1.3;T;BW;8,0 - 16,0;3,0 - 16,0;D192;≥ Ø96;PA;Y5;;;-;-;-;Fluxofil M42;1,2;M21;-;2019.09.09;Dellner Sp. z o.o.;
+162;40/SLV/DC;internal;PN-EN ISO 15614-1;138;S355J2H;SS2225-23;1.2;5.1;T;BW;12 (16);3,0 - 24,0 (8,0 - 32,0);D160;≥ Ø80;PA;ss mb;;;-;-;-;Fluxofil M42;1,2;M21;-;2013.10.01;Dellner Couplers;obrotnik
+163;41/SLV/D;internal;PN-EN ISO 15614-1;138;S460NH;G24Mn6+QT;1.3;5.1;T;BW;12,0 (16,0);6,0 - 24,0 (8,0 - 32,0);D192;≥ Ø96;PA;BW 12 ss mb;;;-;-;-;Fluxofil M42;1,2;M21;-;2019.08.30;Dellner Sp. z o.o.;176359
+164;41/SLV/DC;internal;PN-EN ISO 15614-1;136;S355J2H;SS2225-23;1.2;5.1;T;BW;12 (16);3,0 - 24,0 (8,0 - 32,0);D160;≥ Ø80;PA;ss mb;;;-;-;-;FILARC PZ6111;1,2;M21;-;2013.10.01;Dellner Couplers;obrotnik
+165;42/SLV/D;internal;PN-EN ISO 15614-1;141/111;S460NH;304L;1.3;8.1;T;PB;3,0 - 32,0;D25;≥ Ø12,5;FW;a3;ml;-;;-;-;50;OK Tigrod 309LSi / OK 67.70;-;-;-;2019.09.10;Dellner Sp. z o.o.;176359
+166;42/SLV/DC;internal;PN-EN ISO 15614-1;136;S355J2H;S355J2H;1.2;1.2;T;BW;12 (16);3,0 - 24,0 (8,0 - 32,0);D160;≥ Ø80;PA;ss mb;;;-;-;-;FILARC PZ6111;1,2;M21;-;2013.10.01;Dellner Couplers;obrotnik
+167;43/SLV/D;internal;PN-EN ISO 15614-1;141/111;G24Mn6+QT;304L;5.1;8.1;T;PB;3,0 - 52,0;D25;≥ Ø12,5;FW;a3;ml;-;;-;-;180;OK Tigrod 309LSi / OK 67.70;-;-;-;2019.09.10;Dellner Sp. z o.o.;176359
+168;43/SLV/DC;internal;PN-EN ISO 15614-1;135;Weldox 700E;Weldox 700E;3.1;3.1;P;FW;30,0;≥ 5;-;>500;PB;ml;;;-;-;-;Bohler X 70-IG;1;M21;-;2008.09.04;Dellner Couplers;
+169;44/SLV/D;internal;PN-EN ISO 15613;141/111;S355N2;S460NH;1.2;1.3;T;BW;8,0 - 32,0;Y3 (3,0 - 6,0);-;;PA;Y3;-;;-;-;50;Fluxofil M42;1,2;M21;-;2019.09.10;Dellner Sp. z o.o.;176359
+170;44/SLV/DC;internal;PN-EN ISO 15614-1;138;Weldox 700E;Weldox 700E;3.1;3.1;P;FW;30,0;≥ 5;-;>500;PB;ml;;;-;-;-;Fluxofil M42;1,2;M21;-;2008.09.04;Dellner Couplers;
+171;45/SLV/D;internal;PN-EN ISO 15614-1;138;E460K2+N;G24Mn6+QT1;1.3;5.1;T;BW;19,0 (22,5 - 28,5);9,5 - 38,0 (11,25 - 44,9);D162;≥ Ø81;PA;BW 19 ss mb;;;-;-;-;Fluxofil M42;1,2;M21;-;2019.08.27;Dellner Sp. z o.o.;159924
+172;45/SLV/DC;internal;PN-EN ISO 15614-1;135;Weldox 700E;Weldox 700E;3.1;3.1;P;FW;30,0;≥ 5;-;>500;PB;sl;;;-;-;-;Bohler X 70-IG;1;M21;-;2008.10.06;Dellner Couplers;
+173;46/SLV/D;internal;PN-EN ISO 15613;135;SS2333;1.4460;8.1;10.2;P-T;BW;23,0;Y9 (3,0 - 18,0);D20;≥ Ø10;PA;Y9;;;-;-;-;ESAB OK Autrod 316LSi;1;M12;-;2019.08.28;Dellner Sp. z o.o.;155688
+174;46/SLV/DC;internal;PN-EN ISO 15613;135;SS1142;SS1142;1.1;1.1;P;FW;2,5;1,75 - 5,0;-;>500;PB;sl;;;-;-;-;OK Autrod 12.64;1;M21;-;2005.10.10;Dellner Couplers;narożne złącze
+175;47/SLV/D;internal;PN-EN ISO 15614-1;111;S355J2+N;SS2333;1.2;8.1;P - T;FW;6,0 - 7,0; 3,0 - 14,0;D35;`2;PB;ml;;;-;-;-;ESAB OK Tigrod 309LSi;2;I1;-;2019.10.04;Dellner Sp. z o.o.;
+176;47/SLV/DC;internal;PN-EN ISO 15614-1;135;Domex 700MCD;Weldox 700E;2.2;3.1;P;BW;1/2V4;3,0 - 8,0 (3,0 - 24,0);-;>500;PA;ss nb;;;-;-;-;Bohler X 70-IG;1;M21;-;2013.10.01;Dellner Couplers;
+177;48/SLV/DA;internal;PN-EN ISO 15614-1;135;S355J2+N;E355+N;1.2;1.2;P - T;FW;5,0 - 6,0; 3,0 - 12,0;D88;≥ Ø44;PB;sl;;;-;-;-;OK Autrod 12.64;1;M21;-;2019.10.04;Dellner Sp. z o.o.;
+178;48/SLV/DC;internal;PN-EN ISO 15613;135;S355J2G3;Domex 490XP;1.2;2.2;P;FW;1/2V4;3,0 - 8,0 (1,5 - 12,0);-;>500;PA;ss mb;;;-;-;-;ESAB OK Autrod 12.56;1;M21;-;2013.10.01;Dellner Couplers;
+179;49/SLV/D;internal;PN-EN ISO 15614-1;135;E355+N;S420+N;1.2;2.1;P;FW;1/2Y7;2.375 - 28,0 (3,5 - 14,0);D34,5;≥ Ø17,25;PA;Y7;;;-;-;-;OK Autrod 12.64;1;M21;-;2019.10.08;Dellner Sp. z o.o.;
+180;49/SLV/DC;internal;PN-EN ISO 15614-1;135;Domex 700MCD;Domex 700MCD;2.2;2.2;P;BW;1/2V3;3,0 - 6,0 (3,0 - 8,0);-;>500;PA;ss nb;;;-;-;-;Bohler X 70-IG;1;M21;-;2013.10.01;Dellner Couplers;
+181;5/SLV/DC;internal;EN 288-3;141;S235JRG2;S235JRG2;1.1;1.1;P;BW;3,0;2,1 - 6,0;D50;≥ Ø25;PA;ss nb;;;-;-;-;OK Tigrod 12.64;2;I1;-;2005.10.09;Dellner Couplers;
+182;50/SLV/D;internal;PN-EN ISO 15613;141;S355J2+N;S355J2+N;1.2;1.2;P;BW;1/2Y2 (3 - 20);Y2 (1,4 - 4,0);-;≥ Ø150;PA;Y2;;;-;-;-;OK Tigrod 13.09;2;I1;-;2019.10.16;Dellner Sp. z o.o.;157250
+183;50/SLV/DC;internal;PN-EN ISO 15613;135;S355J2G3;S420N;1.2;1.3;P;BW;1/2Y6;3,0 - 12,0 (7,5 - 30,0);-;>500;PA;ss mb;;;-;-;-;OK Autrod 12.64;1;M21;-;2005.10.12;Dellner Couplers;
+184;51/SLV/D;internal;PN-EN ISO 15614-1;135;S355J2+N;S355J2+N;1.2;1.2;P;BW;1/2Y3 wzdłuż pręta;7,0 - 45,0 (1,5 - 6,0);D45;≥ Ø150;PA;Y3;;;-;-;-;OK Autrod 12.64;1;M21;-;2019.10.10;Dellner Sp. z o.o.;157349
+185;51/SLV/DC;internal;PN-EN ISO 15614-2;141;SS4212;SS4212;23.1;23.1;P-T;FW;5,0 - 6,0;2,5 - 10,0;D45;≥ Ø25;PB;a3;;;-;-;-;Union AlMg5;2;I1;-;2009.01.13;Dellner Couplers;
+186;52/SLV/D;internal;PN-EN ISO 15614-1;135;S355J2+N;S355J2+N;1.2;1.2;P;BW+FW;1/2Y1 (#4 - Ø48,3x3,2);"Y1 (0,5 - 2,0)
+a3";D48,3;≥ Ø25;PA/PB;"Y1
+a3";;;-;-;-;OK Autrod 12.64;1;M21;-;2019.10.17;Dellner Sp. z o.o.;1054687
+187;52/SLV/DC;internal;PN-EN ISO 15613;138;Ovako 280;S690QL;1.3;3.1;P-T;BW;1/2Y7;3,0 - 14,0 (3,0 - 40,0);D160;≥ Ø80;PA;ss mb;;;-;-;-;Fluxofil M42;1,2;M21;-;2013.10.01;Dellner Couplers;
+188;53/SLV/D;internal;PN-EN ISO 15613;135;S235;G24Mn+QT1;1.1;5.1;P;BW;I2 (#2 - #22);11 - 24,2 I2 (1,0 - 4,0);-;≥ Ø150;PA;I2;;;-;-;180;OK Autrod 12.64;1;M21;-;2019.10.31;Dellner Sp. z o.o.;1035001
+189;53/SLV/DC;internal;PN-EN ISO 15613;138;S355J2G3;Ovako 280;1.2;1.3;P-T;BW;1/2Y7;3,0 - 14,0 (3,0 - 20,0);D160;≥ Ø80;PA;ss mb;;;-;-;-;Fluxofil M42;1,2;M21;-;2013.10.01;Dellner Couplers;
+190;54/SLV/D;internal;PN-EN ISO 15613;135;S355J2+N;G24Mn+QT1;1.2;5.1;P;BW+FW;1/2Y7+a4 (#15 - #50);"Y7 (3,5 - 14,0)
+a4";-;≥ Ø150;PA/PB;"1/2Y7
+a4";;;-;-;180;OK Autrod 12.64;1;M21;-;2019.10.31;Dellner Sp. z o.o.;1035000
+191;54/SLV/DC;internal;PN-EN ISO 15614-1;141;Weldox 700E;SS2333;3.1;8.1;P;FW;3,0 - 8,0;2,1 - 16,0;-;>500;PB;ml;;;-;-;-;Avesta P5;2,4;I1;-;2013.03.11;Dellner Couplers;
+192;55/SLV/D;internal;PN-EN ISO 15613;135;S355J2+N;G24Mn+QT1;1.2;5.1;P - T;BW+FW;1/2Y3+a3 (#15 - #20);"Y3 (1,5 - 6,0)
+a3";D30;≥ Ø15;PA/PB;"1/2Y3
+a3";;;-;-;180;OK Autrod 12.64;1;M21;-;2019.10.31;Dellner Sp. z o.o.;1035000
+193;55/SLV/DC;internal;PN-EN ISO 15613;135;S355JR2;Weldox 700E;1.2;3.1;P-T;BW;1/2Y3 wzdłuż pręta;2,1 - 3,9;D12;Ø6 - Ø24;PA;ss mb;;;-;-;-;Bohler X 70-IG;1;M21;-;2013.10.01;Dellner Couplers;
+194;56/SLV/D;internal;PN-EN ISO 15613;141;SS2333;G24Mn+QT1;8.1;5.1;P - T;BW+FW;I1,5+a2 (#7,5 - #26);"I1,5 (0,75 - 3,0)
+a2";D25;≥ Ø12,5;PA/PB;"1,5I
+a2";;;-;-;180;OK Tigrod 309LSi;2;I1;-;2019.10.31;Dellner Sp. z o.o.;1035000
+195;56/SLV/DC;internal;PN-EN ISO 15613;135;GS-C25;Weldox 700E;1.2;3.1;1/2Y4;BW;10,0 - 12,0;3,0 - 5,2 (5,0 - 24,0);-;>500;PA;ss mb;;;-;-;-;Bohler X 70-IG;1;M21;-;2013.03.10;Dellner Couplers;
+196;57/SLV/D;internal;PN-EN ISO 15614-1;138;E470;DCAB 500D;1.3;5.1;T;BW;12,5 (20);6,25 - 25,0 (10 - 40);D80;≥ Ø80;PA;BW 12,5 ss mb;;;-;-;-;Fluxofil M42;1,2;M21;-;2018.12.13;Dellner Sp. z o.o.;1052621
+197;57/SLV/DC;internal;PN-EN ISO 15613;141;Weldox 700E;SS2333;3.1;8.1;1/2Y7;BW;2,0 - 10,0;3,0 - 16,0 (1,5 - 20,0);D32;≥ Ø25;PA;ss mb;;;-;-;-;Avesta P5;2;I1;-;2013.10.01;Dellner Couplers;
+198;58/SLV/D;internal;PN-EN ISO 15613;135;S355J2+N;E460K2+N;1.2;1.3;P - T;BW;1/2Y3 (#3,0 - #13);"Y3 (3,0 - 26,0)
+";-;≥ Ø150;PA;1/2Y3;;;-;-;50;OK Autrod 12.64;1;M21;-;2019.10.29;Dellner Sp. z o.o.;159882
+199;58/SLV/DC;internal;PN-EN ISO 15613;135;Weldox 700E;34CrNiMo6;3.1;5.1;"1/2Y3
+Y6";BW;12,0 - 21,5;2,1 - 12,0;"D24
+D43";≥ Ø25;PA;ss mb;;;-;-;-;Bohler X 70-IG;1;M21;-;2013.03.11;Dellner Couplers;
+200;59/SLV/D;internal;PN-EN ISO 15613;135;S355J2+N;E460K2+N;1.2;1.3;P - T;BW;1/2Y6 (#13 - #20);"Y6 (3,0 - 40,0)
+";-;≥ Ø150;PA;1/2Y6;;;-;-;50;OK Autrod 12.64;1;M21;-;2019.10.29;Dellner Sp. z o.o.;159882
+201;59/SLV/DC;internal;PN-EN ISO 15613;135;S355J2G3;S355J2G3;1.2;1.2;1/2Y4;BW;12,0 - 30,0;3,0 - 8,0 (≥3,0);-;>500;PA;ss mb;;;-;-;-;OK Autrod 12.64;1;M21;-;2013.10.01;Dellner Couplers;
+202;6/SLV/DC;internal;PN-EN ISO 15614-1;141;S650MCD;S650MCD;2.2;2.2;P;FW;3,0;2,1 - 6,0;-;>500;PB;a2,5;;;-;-;-;OK Tigrod 13.29;2;I1;-;2005.10.19;Dellner Couplers;
+203;60/SLV/Da;internal;PN-EN ISO 15613;135;S355J2+N;E460K2+N;1.2;1.3;P - T;BW;1/2Y4 (#6 - #13);"Y4 (3,0 - 26,0)
+";-;≥ Ø150;PA;1/2Y4;;;-;-;20;OK Autrod 12.64;1;M21;-;2019.12.04;Dellner Sp. z o.o.;159874
+204;60/SLV/Db;internal;PN-EN ISO 15613;135;S355J2+N;E460K2+N;1.2;1.3;P - T;BW;1/2Y4 (#6 - #13);"Y4 (3,0 - 26,0)
+";-;≥ Ø150;PA;1/2Y4;;;-;-;20;OK Autrod 12.64;1;M21;-;2019.12.04;Dellner Sp. z o.o.;159874
+205;60/SLV/DC;internal;PN-EN ISO 15614-1;138;SS2134;S355J2H;1.2;1.2;T;BW;10 (15,0 - 25,0);3,0 - 20,0;D82,5;≥ Ø41,25;PA;ss mb;;;-;-;-;Fluxofil M42;1,2;M21;-;2013.10.01;Dellner Couplers;
+206;61/SLV/D;internal;PN-EN ISO 15614-1;138;E460K2+N;G26CrMo4+QT2;1.3;5.1;T;BW;13,0 (13,0 - 57,0);BW13 ss mb (6,5 - 26,0);D192;≥ Ø96;PA;BW 13 ss mb;;;-;-;-;Fluxofil M42;1,2;M21;-;2019.11.18;Dellner Sp. z o.o.;159882 / 159874
+207;61/SLV/DC;internal;PN-EN ISO 15614-1;138;SS2134;S355J2H;1.2;1.2;T;FW;10,0 - 30,0;≥ 5;D82,5;≥ Ø41,25;PB;a4;;;-;-;-;Fluxofil M42;1,2;M21;-;2013.10.01;Dellner Couplers;
+208;62/SLV/DC;internal;PN-EN ISO 15614-1;135;S690QL;S690QL;3.1;3.1;T;BW;1/2Y12 (15,0 - 20,0);3,0 - 24,0 (10 - 40);-;>500;PA;1/2Y12;;;-;-;-;Bohler X 70-IG;1;M21;-;2013.10.01;Dellner Couplers;
+209;63/SLV/D;internal;PN-EN ISO 15614-1;138;S355J2G3;E470 (Ovako 280);1.2;1.3;T;BW;12,5 (20);6,25 - 25,0 (10 - 40);D80;≥ Ø80;PA;BW 12,5 ss mb;;;-;-;-;Fluxofil M42;1,2;M21;-;2018.12.13;Dellner Sp. z o.o.;1052621
+210;63/SLV/DC;internal;PN-EN ISO 15614-1;136;SS2134;SS2172;1.2;1.2;P-T;BW;1/2Y4 (15,0 - 43,0);3,0 - 5,2 (≥ 5,0);D80;≥ Ø150;PA;1/2Y4;;;-;-;-;FILARC PZ6111;1,2;M21;-;2013.10.01;Dellner Couplers;
+211;64/SLV/DC;internal;PN-EN ISO 15614-1;135;SS1312;S355J2H;1.1;1.2;P-T;BW;1/2Y5 (5,0 - 15,0);3,0 - 6,5 (3,0 - 30,0);D80;≥ Ø150;PA;1/2Y5;;;-;-;-;OK Autrod 12.64;1;M21;-;2013.10.01;Dellner Couplers;
+212;65/SLV/DC;internal;PN-EN ISO 15614-1;141;SS2134;SS2333;1.2;8.1;P;BW;1/2Y4 (12,0 - 30,0);3,0 - 8,0 (≥ 3,0);-;≥ Ø150;PA;1/2Y4;;;-;-;-;P5 Avesta;2;I1;-;2013.10.01;Dellner Couplers;
+213;66/SLV/DC;internal;PN-EN ISO 15614-1;141;SS2134;SS2333;1.2;8.1;P;FW;12,0 - 30,0;≥ 5;-;>500;PB;a4;;;-;-;-;P5 Avesta;2;I1;-;2013.10.01;Dellner Couplers;
+214;67/SLV/DC;internal;PN-EN ISO 15614-1;135;Ovako 280;S690QL;1.3;3.1;P-T;BW;1/2Y5 (12,0 - 15,0);3,0 - 6,5 (6,0 - 30,0);-;≥ Ø35;PA;1/2Y5;;;-;-;-;Bohler X 70-IG;1;M21;-;2013.10.01;Dellner Couplers;
+215;68/SLV/DC;internal;PN-EN ISO 15614-1;135;Ovako 280;S690QL;1.3;3.1;P-T;FW;(12,0 - 20,5);6,0 - 41 (12,0 - 20,5);D81;≥ Ø40,5;PB;a5;;;-;-;-;Bohler X 70-IG;1;M21;-;2013.10.01;Dellner Couplers;
+216;69/SLV/DC;internal;PN-EN ISO 15614-1;138;S690QL;S690QL;3.1;3.1;P-T;BW;(10,0 - 60,0);3,0 - 20,0 (≥ 3,0);-;≥ Ø150;PA;ss mb;;;-;-;-;Fluxofil M42;1,2;M21;-;2013.10.01;Dellner Couplers;
+217;7/SLV/DC;internal;PN-EN ISO 15614-1;141;SS2333;SS2333;8.1;8.1;P;BW;4,0;3,0 - 8,0;-;>500;PA;bs;;;-;-;-;Avesta 308L-Si / MVR-Si;2;I1;-;2013.10.01;Dellner Couplers;
+218;70/SLV/DC a2;internal;PN-EN ISO 15614-1;135;S690QL;S690QL;3.1;3.1;T;FW;(3,0 - 10,0);3,0 - 20,0;D110;≥ Ø55;PB;a2;;;-;-;-;Bohler X 70-IG;1;M21;-;2013.10.01;Dellner Couplers;
+219;70/SLV/DC a6;internal;PN-EN ISO 15614-1;135;S690QL;S690QL;3.1;3.1;T;FW;(3,0 - 10,0);3,0 - 20,0;D70;≥ Ø35;PB;a6;;;-;-;-;Bohler X 70-IG;1;M21;-;2013.10.01;Dellner Couplers;
+220;71/SLV/DC;internal;PN-EN ISO 15614-1;135;S690QL;DCAB 600E;3.1;5.1;T;BW;3,0 - 30,0 V3;≥ 5;-;>150;PA;3Y;;;-;-;-;Bohler X 70-IG;1;M21;-;2013.10.01;Dellner Couplers;
+221;72/SLV/DC;internal;PN-EN ISO 15614-1;135;S690QL;DCAB 600E;3.1;5.1;P-T;BW;(8,0 - 30,0);3,0 - 16,0 (≥ 3,0);-;>150;PA;8Y;;;-;-;-;Bohler X 70-IG;1;M21;-;2013.10.01;Dellner Couplers;
+222;73R/SLV/DC;internal;PN-EN ISO 15614-1;138 Robot;Ovako 280;Ovako 280;1.3;1.3;T;BW;BW16 (16,0 - 20,0);8,0 - 32,0;D170;>85;PA;BW 16 ssmb;;;-;-;-;Fluxofil M42;1,2;M21;-;2013.10.01;Dellner Couplers;
+223;74R/SLV/DC;internal;PN-EN ISO 15614-1;138 Robot;Ovako 280;SS2225-23;1.3;5.1;T;BW;BW16 (16,0 - 20,0);8,0 - 32,0;D170;>85;PA;BW 16 ssmb;;;-;-;-;Fluxofil M42;1,2;M21;-;2013.10.01;Dellner Couplers;
+224;8/SLV/DC;internal;PN-EN ISO 15614-1;141;SS2333;SS2333;8.1;8.1;P;FW;4,0;3,0 - 8,0;-;>500;FW;ml;;;-;-;-;Avesta 308L-Si / MVR-Si;2;I1;-;2013.10.01;Dellner Couplers;
+225;81R/SLV/DC;internal;PN-EN ISO 15613;138 Robot;S355J2+N;S355J2H;1.2;1.2;P - T;BW;1/2Y8 (30 - 8,75);1/2Y8: 3,0 - 16,0 (4 - 60);D80;≥ Ø40;PA;1/2Y8;;;-;-;n.a.;Fluxofil M42;1,2;M21;n.a.;41326;Dellner Components Sp. z o.o.;1018602
+226;83R/SLV/DC;internal;PN-EN ISO 15614-1;138 Robot;SS2134;S355J2H;1.2;1.2;P;FW;a3(15 - 15);a: 3 - 6 (7,5 - 30);N.A.;n.a.;PB;a3;;;;;n.a.;Fluxofil M42;1,2;M21;n.a.;41431;Dellner Components Sp. z o.o.;1003431
+227;84R/SLV/DC;internal;PN-EN ISO 15613;138 Robot;SS2134;SS2172;1.2;1.2;P - T;BW;1/2Y4 (15,0 - 43,0);1/2Y4: 3 - 8 (7,5 - 47,3);D80;≥ Ø150;PA;1/2Y4;;;;;n.a.;Fluxofil M42;1,2;M21;n.a.;41341;Dellner Components Sp. z o.o.;1018599
+228;85/SLV/DC;internal;PN-EN ISO 15613;141;S355J2;S355J2;1.2;1.2;P;FW;Plug weld (6 - 10);Plug weld: no restriction (3 - 20);N.A.;N.A.;PB;Plug weld;;;;;n.a.;OK Tigrod 12.64;2;I1;n.a.;41431;Dellner Components Sp. z o.o.;ROXTEC
+229;86/SLV/DC;internal;PN-EN ISO 15613;141;S355J2;S355J2;1.2;1.2;P;FW;z6 (6 - 6);z6: no restrictions (3 - 20);N.A.;N.A.;PB;z6;;;;;n.a.;OK Tigrod 12.64;2;I1;n.a.;41431;Dellner Components Sp. z o.o.;ROXTEC
+230;87/SLV/DC;internal;PN-EN ISO 15614-1;135;S690QL;S690QL;3.1;3.1;P -T;BW;1/2Y4 (7,5 - 7,5);1/2Y4: 3 - 9 (3 - 15);D24;Ø12 - Ø48;PA;1/2Y4;;;;;100;OK AristoRod 69;1;M21;n.a.;41443;Dellner Components Sp. z o.o.;1043336
+231;88/SLV/DC;internal;PN-EN ISO 15614-1;135;DCAB 500D (G10MnMoV6-3);DCAB 500D;5.1;5.1;P;FW;a8 (11 - 20);a8: no restrictions (5,5 - 40);N.A.;N.A.;PB;a8;;;;;180;OK AristoRod 69;1;M21;n.a.;41110;Dellner Components Sp. z o.o.;
+232;89R/SLV/DC;internal;PN-EN ISO 15614-1;138 Robot;S690QL;S690QL;3.1;3.1;P;FW;a10 (25 - 25);a10: no restrctions (12,5 - 50);N.A.;N.A.;PB;a10;;;;;t = (30 - 45) 75      t = (45 - 50) 100;Fluxofil M42;1,2;M21;n.a.;41515;Dellner Components Sp. z o.o.;1036869
+233;9/SLV/DC;internal;PN-EN ISO 15614-1;135;SS2333;SS2333;8.1;8.1;P;FW;6,0;3,0 - 12,0;-;>500;PB;a4;;;-;-;-;Avesta 308L-Si / MVR-Si;1;M12;-;2005.11.21;Dellner Couplers;
+234;90/SLV/DC;internal;PN-EN ISO 15614-1;141;S690QL;S690QL;3.1;3.1;P;FW;a3,5 (8 - 8);a3,5: no restrictions (4 - 16);N.A.;N.A.;PB;a3,5;;;;;n.a.;Elgatig 135;2,4;I1;n.a.;41684;Dellner Components Sp. z o.o.;
+235;91/SLV/DC;internal;PN-EN ISO 15613-1 (ISO 11970);135;DCAB 500D (G10MnMoV6-3);DCAB 500D;5.1;5.1;P;BW;BW18 (18 - 18);BW18: 9 - 36  (9- 36);N.A.;N.A.;PA;BW 18 ss mb;;;;;100;OK AristoRod 69;1;M21;n.a.;41443;Dellner Components Sp. z o.o.;NAPRAWY ODLEWÓW (ISO 11970)
+236;92/SLV/DC;internal;PN-EN ISO 15613;138;DCAB 500D (G10MnMoV6-3);S690QL;3.1;5.1;P;BW;1/2Y17 (18 - 25);1/2Y17: 8,5 - 34 (9 - 50);N.A.;N.A.;PA;1/2Y17;;;;;t = (30 - 45) 75      t = (45 - 50) 100;Fluxofil M42;1,2;M21;n.a.;41743;Dellner Components Sp. z o.o.;
+237;93/SLV/DC;internal;PN-EN ISO 15613;138;DCAB 500D (G10MnMoV6-3);S690QL;3.1;5.1;P;FW;a9,5 (18 - 25);a9,5:  no restrictions (9 - 50);N.A.;N.A.;PB;a9,5;;;;;t = (30 - 45) 75      t = (45 - 50) 100;Fluxofil M42;1,2;M21;n.a.;41743;Dellner Components Sp. z o.o.;
+238;94R/SLV/DC;internal;PN-EN ISO 15614-1;138 Robot;E470;DCAB 500D;1.3;5.1;P - T;FW;a4 (7 - 14);a4: 3 - 6 (3,5 - 28);D216;≥ Ø108;PB;a4;;;;;t = (20 - 35) 75      t = (35 - 55) 100;AMC 15 ;1,2;M21;n.a.;41975;Dellner Components Sp. z o.o.;1047736
+239;95/SLV/DC;internal;PN-EN ISO 15613;141;DCAB 500D;SS2333;5.1;8.1;P - T;FW;Plug weld (21);Plug weld: 1,5 - 4 (10,5 - 42);D18;Ø9 - Ø36;PB;Plug weld;;;;;180;P5;2,4;I1;n.a.;42016;Dellner Components Sp. z o.o.;1039665
+240;96/SLV/DC;internal;PN-EN ISO 15613;141;DCAB 500D;SS2333;5.1;8.1;P - T;FW;Plug weld (21);Plug weld: 1,5 - 4 (10,5 - 42);D6;Ø3 - Ø12;PB;Plug weld;;;;;180;P5;2,4;I1;n.a.;42016;Dellner Components Sp. z o.o.;1039665
+241;97/SLV/DC;internal;PN-EN ISO 15613;141;34CrNiMo6 QT ;C45;5.1;11.2;P;FW;a3 (8 - 24);a3: no restrictions (4 - 48);N.A.;N.A.;PB;a3;;;;;300;OK Tigrod 12.64;2;I1;n.a.;42402;Dellner Components Sp. z o.o.;Wartości twardości złacza musza zostać uzgodnione pomiedzy wykonawcą a klientem.
+242;98/SLV/DC;internal;PN-EN ISO 15613;141;34CrNiMo6 QT ;SS2333;5.1;8.1;P - T;BW;1/2Y4 (16);1/2Y4: 2 - 8 (8 - 32);D20;Ø10 - Ø40;PA;1/2Y4;;;;;300 - 350;Avesta 309L-Si;2;I1;n.a.;42502;Dellner Components Sp. z o.o.;Wartości twardości złacza musza zostać uzgodnione pomiedzy wykonawcą a klientem.
+243;99/SLV/DC;internal;PN-EN ISO 15613;141;S690QL;SS2333;3.1;8.1;P - T;FW;a3 (2 - 12);a3: no restrictions (1,4 - 24);D32;≥ Ø25;PB;a3;;;;;n.a.;Avesta 309L-Si;2;I1;n.a.;42635;Dellner Components Sp. z o.o.;
+244;IK/01/02/1;IS;DIN 6700-2;111;SS2333;25CrMo4;5.1;8.1;P-T;FW;"SS2333: 8
+SS2225: 20";3,0 - 40,0;D25;≥ Ø25;PB;;;;-;-;180˚C;ESAB OK 67.70;2,5;-;-;2002.02.10;Dellner Couplers;
+245;IK/01/02/10;IS;EN 288-3;135;Domex 650MCD;Domex 650MCD;2.2;2.2;P;BW;5,1;3,0 - 10,1;-;>500;PA;;;;-;-;-;OK Autrod 13.30;1,0;M21;-;2001.11.16;Dellner Couplers;
+246;IK/01/02/2;IS;EN 288-3;135;S355;S355;1.2;1.2;P-T;FW;5 - 6;3,0 - 12,0;Ø63,5;31,5 - 127;PB sl;;;;-;-;-;OK Autrod 12.56;1;M21;-;2001.11.15;Dellner Couplers;
+247;IK/01/02/3;IS;EN 288-3;135;S355;S355;1.2;1.2;P-T;FW;5 - 6;3,0 - 12,0;Ø95;47,5 - 190;PB sl;;;;-;-;-;OK Autrod 12.56;1;M21;-;2001.11.15;Dellner Couplers;
+248;IK/01/02/4;IS;EN 288-3;111;SS2333;S355;1.2;8.1;P-T;FW;6 - 7;3,0 - 14,0;D35;17,5 - 70;PB sl;;;;-;-;-;ESAB OK 67.70;2,5;-;-;2002.02.10;Dellner Couplers;
+249;IK/01/02/5;IS;EN 288-3;135;Domex 650MCD;Domex 650MCD;2.2;2.2;P;BW;5,0;3,0 - 10,0;-;>500;PA;;;;-;-;-;OK Autrod 13.29;1,2;M21;-;2001.11.15;Dellner Couplers;
+250;IK/01/02/6;IS;DIN 6700-3;111;SS2334;25CrMo5;8.2;5.2;P-T;FW;"SS2333: 8
+SS2225: 21";3,0 - 40,1;D26;≥ Ø26;PB;;;;-;-;180˚C;ESAB OK 67.70;2,5;-;-;2002.02.11;Dellner Couplers;
+251;IK/01/02/7;IS;EN 288-3;135;S355;S355;1.2;1.2;P-T;FW;5 - 6;3,0 - 12,0;Ø63,6;31,5 - 128;PB sl;;;;-;-;-;OK Autrod 12.56;1,0;M21;-;2001.11.15;Dellner Couplers;
+252;IK/01/02/8;IS;EN 288-3;135;S355;S355;1.2;1.2;P-T;FW;5 - 6;3,0 - 12,0;Ø96;47,5 - 191;PB sl;;;;-;-;-;OK Autrod 12.56;1,0;M21;-;2001.11.15;Dellner Couplers;
+253;IK/01/02/9;IS;EN 288-3;111;SS233;S355;8.2;1.2;P-T;FW;7 - 7;3,0 - 14,1;D36;17,5 - 71;PB sl;;;;-;-;-;ESAB OK 67.70;2,5;-;-;2002.02.11;Dellner Couplers;
+254;IK/14/2002/1;IS;DIN 6700 / EN 288-4;141;AlSiMgMn T6;AlSiMgMn T6;23.1;23.1;P;BW;2;1,0 - 4,0;-;>500;PA;;;;-;"172,5
+203,6";-;Bohler AlMg5;2;I1;-;2003.01.10;Dellner Couplers;
+255;IK/14/2002/2;IS;DIN 6700 / EN 288-4;141;AlSiMgMn T6;AlSiMgMn T6;23.1;23.1;P;FW;2;1,0 - 4,0;-;>500;PB;;;;-;"172,5
+203,6";-;Bohler AlMg5;2;I1;-;2003.01.10;Dellner Couplers;
+256;IK/14/2002/3;IS;DIN 6700 / EN 288-4;141;AlSiMgMn T6;AlSiMgMn T6;23.1;23.1;P;FW;6;3,0 - 12,0;-;>500;PB;;;;-;"172,5
+203,6";-;Bohler AlMg5;2;I1;-;2003.01.10;Dellner Couplers;
+257;IK/14/2002/4;IS;DIN 6700 / EN 288-4;141;AlSiMgMn T6;AlSiMgMn T6;23.1;23.1;P;BW;7,333333333;1,0 - 4,0;-;>500;PA;;;;-;"172,5
+203,6";-;Bohler AlMg5;2,0;I1;-;2003.01.10;Dellner Couplers;
+258;IK/14/2002/5;IS;DIN 6700 / EN 288-4;141;AlSiMgMn T6;AlSiMgMn T6;23.1;23.1;P;FW;9,333333333;1,0 - 4,0;-;>500;PB;;;;-;"172,5
+203,6";-;Bohler AlMg5;2,0;I1;-;2003.01.10;Dellner Couplers;
+259;IK/14/2002/6;IS;DIN 6700 / EN 288-4;141;AlSiMgMn T6;AlSiMgMn T6;23.1;23.1;P;FW;11,33333333;3,0 - 12,1;-;>500;PB;;;;-;"172,5
+203,6";-;Bohler AlMg5;2,0;I1;-;2003.01.10;Dellner Couplers;
+260;WPT 62/SLV/D;internal;PN-EN ISO 15613;138;S460NH;25CrMo4;1.3;5.1;T;BW;12,0 (12,0 - 17,0);BW12 ss mb (6,0 - 24,0);D192;≥ Ø96;PA;BW 12 ss mb;;;-;-;-;Fluxofil M42;1,2;M21;-;2019.12.19;Dellner Sp. z o.o.;Udarność -40°C Próba Produkcyjna bez rozciągania, zginania
+261;WPT 64/SLV/D;internal;PN-EN ISO 15613;138;S690QL;M201 E;3.1;3.2;P;BW;Y10 (15 - 20);Y10: 3,0 - 12,0 (7,5 - 40);-;≥ Ø500;PA;Y10;;;-;-;220;Fluxofil M42;1,2;M21;-;2020.09.04;Dellner Sp. z o.o.;1030980
