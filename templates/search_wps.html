@@ -8,7 +8,7 @@
                     <div class="col-sm-12">
                         <div class="page-header">
                             <div class="page-title">
-                                <h1>Lista WPS </h1>
+                                <h1><a href="{{url_for('wps_table')}}">Lista WPS </a></h1>
 
                                 <table id="example" class="table table-striped" style="width:100%" >
                                     <thead>
@@ -19,7 +19,7 @@
                                         </tr>
                                         <tr>
                                             {% for i in titles[1:] %}
-                                            <form action="{{ url_for('search_list') }}" method="POST">
+                                            <form action="{{ url_for('search_wps_list') }}" method="POST">
                                             <th> <input name="{{i}}" type="text" id="search_text" placeholder="{{i}}"></th>
                                           {% endfor %}
                                         </tr>
@@ -31,20 +31,20 @@
                                         <tr>
 
 
-                                            <td>{{wps.Nr_wps}}</td>
-                                            <td>{{wps.Nr_rys}}</td>
-                                            <td>{{wps.Group_of_material}}</td>
-                                            <td>{{wps.Type_of_joint}}</td>
-                                            <td>{{wps.welding_method}}</td>
-                                            <td>{{wps.wpqr}}</td>
+                                            <td> <a href="{{url_for('show_wps',id=wps.id)}}">{{wps.Nr_wps}} </a></td>
+                                            <td> <a href="{{url_for('show_wps',id=wps.id)}}">{{wps.Nr_rys}} </a></td>
+                                            <td> <a href="{{url_for('show_wps',id=wps.id)}}">{{wps.Group_of_material}} </a></td>
+                                            <td> <a href="{{url_for('show_wps',id=wps.id)}}">{{wps.Type_of_joint}} </a></td>
+                                            <td> <a href="{{url_for('show_wps',id=wps.id)}}">{{wps.welding_method}} </a></td>
+                                            <td> <a href="{{url_for('show_wps',id=wps.id)}}">{{wps.wpqr}} </a></td>
 
 
                                         </tr>
                                       {% endfor %}
 
                                     </tbody>
-                                    <div class="text-right">
-    <a href="{{ url_for('wps_list', page=all_rows.prev_num) }}"
+                                    <div class="text-right"> <button type="submit" class="btn btn-outline-dark mr-1">Filtruj </button>
+    <a href="{{ url_for('search_wps_list', page=all_rows.prev_num) }}"
        class="btn btn-outline-dark
        {% if all_rows.page == 1 %}disabled{% endif %}">
         &laquo;
@@ -55,12 +55,12 @@
 {% if page_num %}
 <!-- Check for the active page and set the link to "Active"-->
             {% if all_rows.page == page_num %}
-            <a href="{{ url_for('wps_list', page=page_num) }}"
+            <a href="{{ url_for('search_wps_list', page=page_num) }}"
                class="btn btn-dark">
                 {{ page_num }}
             </a>
             {% else %}
-            <a href="{{ url_for('wps_list', page=page_num) }}"
+            <a href="{{ url_for('search_wps_list', page=page_num) }}"
                class="btn btn-outline-dark">
                 {{ page_num }}
             </a>
@@ -69,55 +69,26 @@
             ...
         {% endif %}
     {% endfor %}
-    <a href="{{ url_for('wps_list', page=all_rows.next_num) }}"
+    <a href="{{ url_for('search_wps_list', page=all_rows.next_num) }}"
        class="btn btn-outline-dark
        {% if all_rows.page == all_rows.pages %}disabled{% endif %}">
         &raquo;
     </a>
 </div>
                                     </table>
-<!--<script src="https://code.jquery.com/jquery-3.5.1.js"></script>-->
-<!--<script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>-->
-<!--<script>-->
-<!--    $(document).ready(function(){-->
-<!--        load_data();-->
-<!--        function load_data(query)-->
-<!--        {-->
-<!--            $.ajax({-->
-<!--                    url:"/search",-->
-<!--                    method:"POST",-->
-<!--                    data:{query:Metoda spawania:},-->
-<!--                    success: function(data),-->
-<!--                    {-->
-<!--                        $('#result').html(data);-->
-<!--                    }-->
-<!--            });-->
-<!--        }-->
-<!--        $('#search_text').keyup(function(){-->
-<!--            var search = $(this).val();-->
-<!--            if (search != ''){-->
-<!--                load_data(search);-->
-<!--            }else{-->
-<!--                load_data();-->
-<!--            }-->
-<!--        });-->
 
-
-
-
-<!--</script>-->
 
                             </div>
                         </div>
                     </div>
+
                     <div class="col-sm-8">
+                        Number of records: {{how_many_records}}
                         <div class="page-header float-right">
                             <div class="page-title">
                                 <ol class="breadcrumb text-right">
-                                    <a type="button" class="btn btn-outline-dark" href=""> Dodaj nowy WPS</a>
-                                    <button type="submit" class="btn btn-outline-dark mr-1">Szukaj</button>
-<!--                                    </form>-->
-<!--                                    <li><a href="#">Dodaj nowy WPS</a></li>-->
+                                    <a type="button" class="btn btn-outline-dark" href="{{url_for('add_new_wps')}}"> Dodaj nowy WPS</a>
+                                    </form>
                                 </ol>
                             </div>
                         </div>
