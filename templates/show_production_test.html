@@ -8,7 +8,7 @@
                     <div class="col-sm-12">
                         <div class="page-header">
                             <div class="page-title">
-                                <h1>WPQR</h1>
+                                <h1>Production test</h1>
 
                                         <table class="table table-striped" style="width:100%">
                                             <thead>
@@ -20,125 +20,85 @@
                                             <tbody>
 
                                                 <tr>
-                                                    {% for wpqr in all %}
+                                                    {% for production_test in all %}
                                                      <th>{{titles[0]}}</th>
-                                                     <td>{{wpqr.id}}</td>
+                                                     <td>{{production_test.id}}</td>
                                                 </tr>
                                                 <tr>
                                                     <th>{{titles[1]}}</th>
-                                                     <td>{{wpqr.wpqr_num}}</td>
+                                                     <td>{{production_test.No_of_Test_protocol}}</td>
                                                 </tr>
                                                 <tr>
                                                     <th>{{titles[2]}}</th>
-                                                     <td>{{wpqr.trzecia_strona}}</td>
+                                                     <td>{{production_test.Type_of_joint}}</td>
                                                 </tr>
                                                 <tr>
                                                     <th>{{titles[3]}}</th>
-                                                     <td>{{wpqr.podstawa_normatywna}}</td>
+                                                     <td>{{production_test.Marking}}</td>
                                                 </tr>
                                                 <tr>
                                                     <th>{{titles[4]}}</th>
-                                                     <td>{{wpqr.metoda_spawania}}</td>
+                                                     <td>{{production_test.welding_position}}</td>
                                                 </tr>
                                                 <tr>
                                                     <th>{{titles[5]}}</th>
-                                                     <td>{{wpqr.gatunek_mat1}}</td>
+                                                     <td>{{production_test.welding_method}}</td>
                                                 </tr>
                                                 <tr>
                                                     <th>{{titles[6]}}</th>
-                                                     <td>{{wpqr.gatunek_mat2}}</td>
+                                                     <td>{{production_test.Filler_material}}</td>
                                                 </tr>
                                                 <tr>
                                                     <th>{{titles[7]}}</th>
-                                                     <td>{{wpqr.grupa_materialowa1}}</td>
+                                                     <td>{{production_test.Grade_material_1}}</td>
                                                 </tr>
                                                 <tr>
                                                     <th>{{titles[8]}}</th>
-                                                     <td>{{wpqr.grupa_materialowa2}}</td>
+                                                     <td>{{production_test.Grade_material_2}}</td>
                                                 </tr>
                                                 <tr>
                                                     <th>{{titles[9]}}</th>
-                                                     <td>{{wpqr.blacha_rura}}</td>
+                                                     <td>{{production_test.Group_of_material_1}}</td>
                                                 </tr>
                                                 <tr>
                                                     <th>{{titles[10]}}</th>
-                                                     <td>{{wpqr.spoina}}</td>
+                                                     <td>{{production_test.Group_of_material_2}}</td>
                                                 </tr>
                                                 <tr>
                                                     <th>{{titles[11]}}</th>
-                                                     <td>{{wpqr.grubosc_probki}}</td>
+                                                     <td>{{production_test.Material_thickness}}</td>
                                                 </tr>
                                                 <tr>
                                                     <th>{{titles[12]}}</th>
-                                                     <td>{{wpqr.zakres_kwalifikacji}}</td>
+                                                     <td>{{production_test.WPS}}</td>
                                                 </tr>
                                                 <tr>
                                                     <th>{{titles[13]}}</th>
-                                                     <td>{{wpqr.srednica_prob}}</td>
+                                                     <td>{{production_test.Quality_level}}</td>
                                                 </tr>
                                                 <tr>
                                                     <th>{{titles[14]}}</th>
-                                                     <td>{{wpqr.zakres_kwalifikacji2}}</td>
+                                                     <td>{{production_test.Drawing_no}}</td>
                                                 </tr>
                                                 <tr>
                                                     <th>{{titles[15]}}</th>
-                                                     <td>{{wpqr.pozycja_spawania}}</td>
+                                                     <td>{{production_test.welder}}</td>
                                                 </tr>
                                                 <tr>
                                                     <th>{{titles[16]}}</th>
-                                                     <td>{{wpqr.szczegoly}}</td>
+                                                     <td>{{production_test.Date_of_welding}}</td>
                                                 </tr>
                                                 <tr>
                                                     <th>{{titles[17]}}</th>
-                                                     <td>{{wpqr.temp_udarnosci}}</td>
+                                                     <td>{{production_test.valid_until}}</td>
                                                 </tr>
                                                 <tr>
                                                     <th>{{titles[18]}}</th>
-                                                     <td>{{wpqr.ceq}}</td>
+                                                     <td>{{production_test.Prolongation_to}}</td>
                                                 </tr>
-                                                <tr>
-                                                    <th>{{titles[19]}}</th>
-                                                     <td>{{wpqr.re}}</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>{{titles[20]}}</th>
-                                                     <td>{{wpqr.rm}}</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>{{titles[21]}}</th>
-                                                     <td>{{wpqr.podgrzewanie_miedzysciegowe}}</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>{{titles[22]}}</th>
-                                                     <td>{{wpqr.nazwa_spoiwa}}</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>{{titles[23]}}</th>
-                                                     <td>{{wpqr.srednica_spoiwa}}</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>{{titles[24]}}</th>
-                                                     <td>{{wpqr.rodzaj_gazu}}</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>{{titles[25]}}</th>
-                                                     <td>{{wpqr.pwht}}</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>{{titles[26]}}</th>
-                                                     <td>{{wpqr.data_wydania}}</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>{{titles[27]}}</th>
-                                                     <td>{{wpqr.uwagi_1}}</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>{{titles[28]}}</th>
-                                                     <td>{{wpqr.uwagi_2}}</td>
-                                                </tr>
-
                                             </tbody>
                                         </table>
+
 
                             </div>
                         </div>
@@ -147,9 +107,9 @@
                         <div class="page-header float-left">
                             <div class="page-title">
                                 <ol class="breadcrumb text-left">
-                                    <a type="button" class="btn btn-outline-dark mr-1" href="{{url_for('add_new_wpqr')}}"> Dodaj nowy WPQR </a>
-                                    <a type="button" class="btn btn-outline-dark mr-1" href="{{url_for('edit_wpqr',id=wpqr.id)}}"> Edytuj </a>
-                                    <a type="button" class="btn btn-outline-dark mr-1" href="{{url_for('delete_wpqr',id=wpqr.id)}}"> Usuń  </a>
+                                    <a type="button" class="btn btn-outline-dark mr-1" href="{{url_for('add_new_production_test')}}"> Dodaj nową próbę roboczą </a>
+                                    <a type="button" class="btn btn-outline-dark mr-1" href="{{url_for('edit_production_test',id=production_test.id)}}"> Edytuj </a>
+                                    <a type="button" class="btn btn-outline-dark mr-1" href="{{url_for('delete_production_test',id=production_test.id)}}"> Usuń  </a>
                                     {% endfor %}
 
                                 </ol>

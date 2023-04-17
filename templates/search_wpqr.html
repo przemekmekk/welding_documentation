@@ -8,7 +8,7 @@
                     <div class="col-sm-12">
                         <div class="page-header">
                             <div class="page-title">
-                                <h1>Lista WPS </h1>
+                                <h1><a href="{{url_for('wpqr_table')}}">Lista WPQR </a></h1>
 
                                 <table id="example" class="table table-striped" style="width:100%" >
                                     <thead>
@@ -19,32 +19,35 @@
                                         </tr>
                                         <tr>
                                             {% for i in titles[1:] %}
-                                            <form action="{{ url_for('search_list') }}" method="POST">
-                                            <th> <input name="{{i}}" type="text" id="search_text" placeholder="{{i}}"></th>
+                                            <form action="{{ url_for('search_wpqr_list') }}" method="POST">
+                                            <th> <input style="width:100%" name="{{i}}" type="text" id="search_text" placeholder="{{i}}"></th>
                                           {% endfor %}
                                         </tr>
                                     </thead>
 
 
                                     <tbody>
-                                      {% for wps in all_rows.items %}
+                                      {% for wpqr in all_rows.items %}
                                         <tr>
 
 
-                                            <td>{{wps.Nr_wps}}</td>
-                                            <td>{{wps.Nr_rys}}</td>
-                                            <td>{{wps.Group_of_material}}</td>
-                                            <td>{{wps.Type_of_joint}}</td>
-                                            <td>{{wps.welding_method}}</td>
-                                            <td>{{wps.wpqr}}</td>
+                                            <td> <a href="{{url_for('show_wpqr',id=wpqr.id)}}">{{wpqr.wpqr_num}} </a></td>
+                                            <td> <a href="{{url_for('show_wpqr',id=wpqr.id)}}">{{wpqr.metoda_spawania}} </a></td>
+                                            <td> <a href="{{url_for('show_wpqr',id=wpqr.id)}}">{{wpqr.gatunek_mat1}} </a></td>
+                                            <td> <a href="{{url_for('show_wpqr',id=wpqr.id)}}">{{wpqr.gatunek_mat2}} </a></td>
+                                            <td> <a href="{{url_for('show_wpqr',id=wpqr.id)}}">{{wpqr.grupa_materialowa1}} </a></td>
+                                            <td> <a href="{{url_for('show_wpqr',id=wpqr.id)}}">{{wpqr.grupa_materialowa2}} </a></td>
+                                            <td> <a href="{{url_for('show_wpqr',id=wpqr.id)}}">{{wpqr.spoina}} </a></td>
+                                            <td> <a href="{{url_for('show_wpqr',id=wpqr.id)}}">{{wpqr.zakres_kwalifikacji}} </a></td>
+                                            <td> <a href="{{url_for('show_wpqr',id=wpqr.id)}}">{{wpqr.nazwa_spoiwa}} </a></td>
 
 
                                         </tr>
                                       {% endfor %}
 
                                     </tbody>
-                                    <div class="text-right">
-    <a href="{{ url_for('search_list', page=all_rows.prev_num) }}"
+                                    <div class="text-right"> <button type="submit" class="btn btn-outline-dark mr-1">Filtruj </button>
+    <a href="{{ url_for('search_wpqr_list', page=all_rows.prev_num) }}"
        class="btn btn-outline-dark
        {% if all_rows.page == 1 %}disabled{% endif %}">
         &laquo;
@@ -55,12 +58,12 @@
 {% if page_num %}
 <!-- Check for the active page and set the link to "Active"-->
             {% if all_rows.page == page_num %}
-            <a href="{{ url_for('search_list', page=page_num) }}"
+            <a href="{{ url_for('search_wpqr_list', page=page_num) }}"
                class="btn btn-dark">
                 {{ page_num }}
             </a>
             {% else %}
-            <a href="{{ url_for('search_list', page=page_num) }}"
+            <a href="{{ url_for('search_wpqr_list', page=page_num) }}"
                class="btn btn-outline-dark">
                 {{ page_num }}
             </a>
@@ -69,7 +72,7 @@
             ...
         {% endif %}
     {% endfor %}
-    <a href="{{ url_for('search_list', page=all_rows.next_num) }}"
+    <a href="{{ url_for('search_wpqr_list', page=all_rows.next_num) }}"
        class="btn btn-outline-dark
        {% if all_rows.page == all_rows.pages %}disabled{% endif %}">
         &raquo;
@@ -81,14 +84,14 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="col-sm-8">
+                        Number of records: {{how_many_records}}
                         <div class="page-header float-right">
                             <div class="page-title">
                                 <ol class="breadcrumb text-right">
-                                    <a type="button" class="btn btn-outline-dark" href=""> Dodaj nowy WPS</a>
-                                    <button type="submit" class="btn btn-outline-dark mr-1">Szukaj</button>
+                                    <a type="button" class="btn btn-outline-dark" href="{{url_for('add_new_wpqr')}}"> Dodaj nowy wpqr</a>
                                     </form>
-<!--                                    <li><a href="#">Dodaj nowy WPS</a></li>-->
                                 </ol>
                             </div>
                         </div>

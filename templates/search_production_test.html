@@ -8,7 +8,7 @@
                     <div class="col-sm-12">
                         <div class="page-header">
                             <div class="page-title">
-                                <h1><a href="{{url_for('wpqr_table')}}">Lista WPQR </a></h1>
+                                <h1><a href="{{url_for('production_test_table')}}">Lista prób roboczych </a></h1>
 
                                 <table id="example" class="table table-striped" style="width:100%" >
                                     <thead>
@@ -19,7 +19,7 @@
                                         </tr>
                                         <tr>
                                             {% for i in titles[1:] %}
-                                            <form action="{{ url_for('search_wpqr_list') }}" method="POST">
+                                            <form action="{{ url_for('search_production_test_list') }}" method="POST">
                                             <th> <input style="width:100%" name="{{i}}" type="text" id="search_text" placeholder="{{i}}"></th>
                                           {% endfor %}
                                         </tr>
@@ -27,28 +27,32 @@
 
 
                                     <tbody>
-                                      {% for wpqr in all_rows.items %}
+                                      {% for production_test in all_rows.items %}
                                         <tr>
 
 
-                                            <td> <a href="{{url_for('show_wpqr',id=wpqr.id)}}">{{wpqr.wpqr_num}} </a></td>
-                                            <td> <a href="{{url_for('show_wpqr',id=wpqr.id)}}">{{wpqr.metoda_spawania}} </a></td>
-                                            <td> <a href="{{url_for('show_wpqr',id=wpqr.id)}}">{{wpqr.gatunek_mat1}} </a></td>
-                                            <td> <a href="{{url_for('show_wpqr',id=wpqr.id)}}">{{wpqr.gatunek_mat2}} </a></td>
-                                            <td> <a href="{{url_for('show_wpqr',id=wpqr.id)}}">{{wpqr.grupa_materialowa1}} </a></td>
-                                            <td> <a href="{{url_for('show_wpqr',id=wpqr.id)}}">{{wpqr.grupa_materialowa2}} </a></td>
-                                            <td> <a href="{{url_for('show_wpqr',id=wpqr.id)}}">{{wpqr.spoina}} </a></td>
-                                            <td> <a href="{{url_for('show_wpqr',id=wpqr.id)}}">{{wpqr.zakres_kwalifikacji}} </a></td>
-                                            <td> <a href="{{url_for('show_wpqr',id=wpqr.id)}}">{{wpqr.nazwa_spoiwa}} </a></td>
+
+                                            <td> <a href="{{url_for('show_production_test',id=production_test.id)}}">{{production_test.No_of_Test_protocol}} </a></td>
+                                            <td> <a href="{{url_for('show_production_test',id=production_test.id)}}">{{production_test.Type_of_joint}} </a></td>
+                                            <td> <a href="{{url_for('show_production_test',id=production_test.id)}}">{{production_test.Marking}} </a></td>
+                                            <td> <a href="{{url_for('show_production_test',id=production_test.id)}}">{{production_test.welding_method}} </a></td>
+                                            <td> <a href="{{url_for('show_production_test',id=production_test.id)}}">{{production_test.Filler_material}} </a></td>
+                                            <td> <a href="{{url_for('show_production_test',id=production_test.id)}}">{{production_test.Grade_material_1}} </a></td>
+                                            <td> <a href="{{url_for('show_production_test',id=production_test.id)}}">{{production_test.Grade_material_2}} </a></td>
+                                            <td> <a href="{{url_for('show_production_test',id=production_test.id)}}">{{production_test.Group_of_material_1}} </a></td>
+                                            <td> <a href="{{url_for('show_production_test',id=production_test.id)}}">{{production_test.Group_of_material_2}} </a></td>
+                                            <td> <a href="{{url_for('show_production_test',id=production_test.id)}}">{{production_test.WPS}} </a></td>
+                                            <td> <a href="{{url_for('show_production_test',id=production_test.id)}}">{{production_test.Drawing_no}} </a></td>
+                                            <td> <a href="{{url_for('show_production_test',id=production_test.id)}}">{{production_test.welder}} </a></td>
+                                            <td> <a href="{{url_for('show_production_test',id=production_test.id)}}">{{production_test.valid_until}} </a></td>
+                                            <td> <a href="{{url_for('show_production_test',id=production_test.id)}}">{{production_test.Prolongation_to}} </a></td>
 
                                         </tr>
                                       {% endfor %}
 
                                     </tbody>
-
-
                                     <div class="text-right"> <button type="submit" class="btn btn-outline-dark mr-1">Filtruj </button>
-    <a href="{{ url_for('wpqr_table', page=all_rows.prev_num) }}"
+    <a href="{{ url_for('search_production_test_list', page=all_rows.prev_num) }}"
        class="btn btn-outline-dark
        {% if all_rows.page == 1 %}disabled{% endif %}">
         &laquo;
@@ -59,12 +63,12 @@
 {% if page_num %}
 <!-- Check for the active page and set the link to "Active"-->
             {% if all_rows.page == page_num %}
-            <a href="{{ url_for('wpqr_table', page=page_num) }}"
+            <a href="{{ url_for('search_production_test_list', page=page_num) }}"
                class="btn btn-dark">
                 {{ page_num }}
             </a>
             {% else %}
-            <a href="{{ url_for('wpqr_table', page=page_num) }}"
+            <a href="{{ url_for('search_production_test_list', page=page_num) }}"
                class="btn btn-outline-dark">
                 {{ page_num }}
             </a>
@@ -73,22 +77,26 @@
             ...
         {% endif %}
     {% endfor %}
-    <a href="{{ url_for('wpqr_table', page=all_rows.next_num) }}"
+    <a href="{{ url_for('search_production_test_list', page=all_rows.next_num) }}"
        class="btn btn-outline-dark
        {% if all_rows.page == all_rows.pages %}disabled{% endif %}">
         &raquo;
     </a>
 </div>
                                     </table>
+
+
                             </div>
                         </div>
                     </div>
+
                     <div class="col-sm-8">
                         Number of records: {{how_many_records}}
                         <div class="page-header float-right">
                             <div class="page-title">
                                 <ol class="breadcrumb text-right">
-                                    <a type="button" class="btn btn-outline-dark" href="{{url_for('add_new_wpqr')}}"> Dodaj nowy WPQR</a>
+                                    <a type="button" class="btn btn-outline-dark" href="{{url_for('add_new_production_test')}}"> Dodaj nową próbę roboczą</a>
+                                    </form>
                                 </ol>
                             </div>
                         </div>

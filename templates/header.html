@@ -68,36 +68,6 @@
         }
 
     </style>
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-<script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
-<script>
-    $(document).ready(function(){
-        load_data();
-        function load_data(query)
-        {
-            $.ajax({
-                    url:"/search",
-                    method:"POST",
-                    data:{query:Metoda spawania:},
-                    success: function(data),
-                    {
-                        $('#result').html(data);
-                    }
-            });
-        }
-        $('#search_text').keyup(function(){
-            var search = $(this).val();
-            if (search != ''){
-                load_data(search);
-            }else{
-                load_data();
-            }
-        });
-
-
-
-
-</script>
 </head>
 
 <body>
@@ -114,10 +84,10 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-table"></i>Listy</a>
                         <ul class="sub-menu children dropdown-menu">
                             <li><i class="fa fa-table"></i><a href="{{url_for('wpqr_table')}}">Lista WPQR</a></li>
-                            <li><i class="fa fa-table"></i><a href="{{url_for('wps_list')}}">Lista WPS</a></li>
-                            <li><i class="fa fa-table"></i><a href="">Lista Prób roboczych</a></li>
-                            <li><i class="fa fa-table"></i><a href="">Lista uprawnień spawaczy</a></li>
-                            <li><i class="fa fa-table"></i><a href="">Lista materiałów dodatkowych</a></li>
+                            <li><i class="fa fa-table"></i><a href="{{url_for('wps_table')}}">Lista WPS</a></li>
+                            <li><i class="fa fa-table"></i><a href="{{url_for('production_test_table')}}">Lista Prób roboczych</a></li>
+                            <li><i class="fa fa-table"></i><a href="{{url_for('list_of_welders_approval_table')}}">Lista uprawnień spawaczy</a></li>
+                            <li><i class="fa fa-table"></i><a href="{{url_for('list_of_welding_consumables_table')}}">Lista materiałów dodatkowych</a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children dropdown">

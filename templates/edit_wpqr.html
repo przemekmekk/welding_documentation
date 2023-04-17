@@ -9,32 +9,129 @@
                         <div class="page-header">
                             <div class="page-title">
                                     <h1>Edytuj WPQR </h1>
-                                    <form action="{{ url_for('edit_wpqr', id=wpqr_ida) }}" method="POST">
+                                    <form action="{{ url_for('edit_wpqr', id=wpqr_id) }}" method="POST">
                                         <table class="table table-striped" style="width:100%">
                                             <thead>
                                                 <tr>
                                                     <th style="width:200px"></th>
                                                 </tr>
                                             </thead>
+                                               <tbody>
 
-                                            <tbody>
-                                                {% for i in titles[1:] %}
                                                 <tr>
-                                                     <td>{{i}}</td>
-                                                    <td><input name="{{i}}" type="text" value="{{all[0][titles.index(i)]}}"></td>
-
+                                                    {% for wpqr in all %}
+                                                     <th>{{titles[1]}}</th>
+                                                     <td><input name="{{titles[1]}}" type="text" value="{{wpqr.wpqr_num}}"></td>
                                                 </tr>
-                                                {% endfor %}
+                                                <tr>
+                                                    <th>{{titles[2]}}</th>
+                                                     <td><input name="{{titles[2]}}" type="text" value="{{wpqr.trzecia_strona}}"></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>{{titles[3]}}</th>
+                                                     <td><input name="{{titles[3]}}" type="text" value="{{wpqr.podstawa_normatywna}}"></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>{{titles[4]}}</th>
+                                                     <td><input name="{{titles[4]}}" type="text" value="{{wpqr.metoda_spawania}}"></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>{{titles[5]}}</th>
+                                                     <td><input name="{{titles[5]}}" type="text" value="{{wpqr.gatunek_mat1}}"></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>{{titles[6]}}</th>
+                                                     <td><input name="{{titles[6]}}" type="text" value="{{wpqr.gatunek_mat2}}"></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>{{titles[7]}}</th>
+                                                     <td><input name="{{titles[7]}}" type="text" value="{{wpqr.grupa_materialowa1}}"></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>{{titles[8]}}</th>
+                                                     <td><input name="{{titles[8]}}" type="text" value="{{wpqr.grupa_materialowa2}}"></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>{{titles[9]}}</th>
+                                                     <td><input name="{{titles[9]}}" type="text" value="{{wpqr.blacha_rura}}"></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>{{titles[10]}}</th>
+                                                     <td><input name="{{titles[10]}}" type="text" value="{{wpqr.spoina}}"></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>{{titles[11]}}</th>
+                                                     <td><input name="{{titles[11]}}" type="text" value="{{wpqr.grubosc_probki}}"></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>{{titles[12]}}</th>
+                                                     <td><input name="{{titles[12]}}" type="text" value="{{wpqr.zakres_kwalifikacji}}"></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>{{titles[13]}}</th>
+                                                     <td><input name="{{titles[13]}}" type="text" value="{{wpqr.srednica_prob}}"></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>{{titles[14]}}</th>
+                                                     <td><input name="{{titles[14]}}" type="text" value="{{wpqr.zakres_kwalifikacji2}}"></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>{{titles[15]}}</th>
+                                                     <td><input name="{{titles[15]}}" type="text" value="{{wpqr.pozycja_spawania}}"></td>
+                                                </tr>                                                <tr>
+                                                    <th>{{titles[16]}}</th>
+                                                     <td><input name="{{titles[16]}}" type="text" value="{{wpqr.szczegoly}}"></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>{{titles[17]}}</th>
+                                                     <td><input name="{{titles[17]}}" type="text" value="{{wpqr.temp_udarnosci}}"></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>{{titles[18]}}</th>
+                                                     <td><input name="{{titles[18]}}" type="text" value="{{wpqr.ceq}}"></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>{{titles[19]}}</th>
+                                                     <td><input name="{{titles[19]}}" type="text" value="{{wpqr.re}}"></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>{{titles[20]}}</th>
+                                                     <td><input name="{{titles[20]}}" type="text" value="{{wpqr.rm}}"></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>{{titles[21]}}</th>
+                                                     <td><input name="{{titles[21]}}" type="text" value="{{wpqr.podgrzewanie_miedzysciegowe}}"></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>{{titles[22]}}</th>
+                                                     <td><input name="{{titles[22]}}" type="text" value="{{wpqr.nazwa_spoiwa}}"></td>
+                                                </tr>                                                <tr>
+                                                    <th>{{titles[23]}}</th>
+                                                     <td><input name="{{titles[23]}}" type="text" value="{{wpqr.srednica_spoiwa}}"></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>{{titles[24]}}</th>
+                                                     <td><input name="{{titles[24]}}" type="text" value="{{wpqr.rodzaj_gazu}}"></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>{{titles[25]}}</th>
+                                                     <td><input name="{{titles[25]}}" type="text" value="{{wpqr.pwht}}"></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>{{titles[26]}}</th>
+                                                     <td><input name="{{titles[26]}}" type="text" value="{{wpqr.data_wydania}}"></td>
+                                                </tr>                                                <tr>
+                                                    <th>{{titles[27]}}</th>
+                                                     <td><input name="{{titles[27]}}" type="text" value="{{wpqr.uwagi_1}}"></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>{{titles[28]}}</th>
+                                                     <td><input name="{{titles[28]}}" type="text" value="{{wpqr.uwagi_2}}"></td>
+                                                </tr>
+                                                    {% endfor %}
+                                            </tbody>
                                             </tbody>
                                         </table>
-<!--                                        <label>WPS</label>-->
-<!--                                        <input name="title" type="text">-->
-<!--                                        <label>Book Author</label>-->
-<!--                                        <input name="author" type="text">-->
-<!--                                        <label>Rating</label>-->
-<!--                                        <input name="rating" type="text">-->
-<!--                                        <button type="submit">Add Book</button>-->
-
                             </div>
                         </div>
                     </div>
@@ -42,7 +139,7 @@
                         <div class="page-header float-left">
                             <div class="page-title">
                                 <ol class="breadcrumb text-right">
-                                    <a type="button" class="btn btn-outline-dark mr-1" href="{{url_for('show_wpqr', id=wpqr_ida)}}"> Wstecz </a>
+                                    <a type="button" class="btn btn-outline-dark mr-1" href="{{url_for('show_wpqr', id=wpqr_id)}}"> Wstecz </a>
                                     <button type="submit" class="btn btn-outline-dark mr-1">Zapisz</button>
                                     </form>
 
